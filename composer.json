@@ -1,0 +1,55 @@
+{
+    "name": "daljo25/filament-tabler-icons",
+    "description": "A Filament plugin that integrates tabler icons, allowing you to use them seamlessly across Filament forms, tables, actions, and more.",
+    "keywords": [
+        "filamentphp",
+        "laravel",
+        "tabler",
+        "icons"
+    ],
+    "homepage": "https://github.com/daljo25/filament-tabler-icons",
+    "support": {
+        "issues": "https://github.com/daljo25/filament-tabler-icons/issues",
+        "source": "https://github.com/daljo25/filament-tabler-icons"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daljo25",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "filament/filament": "^4.0|^5.0",
+        "secondnetwork/blade-tabler-icons": "3.36.1",
+        "spatie/laravel-package-tools": "^1.15.0"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.22"
+    },
+    "autoload": {
+        "psr-4": {
+            "Daljo25\\FilamentTablerIcons\\": "src/"
+        }
+    },
+    "scripts": {
+        "format": "vendor/bin/pint"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Daljo25\\FilamentTablerIcons\\FilamentTablerIconsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
