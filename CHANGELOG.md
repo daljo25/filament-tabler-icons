@@ -7,3 +7,8 @@ All notable changes to `filament-tabler-icons` will be documented in this file.
 - Initial stable release
 - Full Tabler Icons enum support
 - Compatible with Filament v4 and v5
+
+## v1.0.1 - 2026-02-10
+- Add generated Tabler icons JSON for documentation
+- Improve icon sync script
+- Documentation tooling improvements
