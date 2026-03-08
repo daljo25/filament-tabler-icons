@@ -1,0 +1,72 @@
+name: Auto Update Tabler Icons
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-icons:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.3
+          tools: composer
+
+      - name: Install dependencies
+        run: composer install --no-interaction --no-progress
+
+      - name: Update blade-tabler-icons
+        run: composer update secondnetwork/blade-tabler-icons
+
+      - name: Get installed Tabler version
+        id: tabler
+        run: |
+          VERSION=$(composer show secondnetwork/blade-tabler-icons | grep versions | awk '{print $2}')
+          VERSION=${VERSION#v}
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Regenerate enums
+        run: php update-tabler-enum.php
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit changes
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b update-tabler-${{ steps.tabler.outputs.version }}
+          git add .
+          git commit -m "chore: update Tabler icons to v${{ steps.tabler.outputs.version }}"
+
+      - name: Create Pull Request
+        if: steps.changes.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: update-tabler-${{ steps.tabler.outputs.version }}
+          title: "Update Tabler Icons to v${{ steps.tabler.outputs.version }}"
+          body: |
+            Automated update of Tabler Icons.
+
+            Tabler version: **${{ steps.tabler.outputs.version }}**
+
+            Official release notes:
+            https://github.com/tabler/tabler-icons/releases/tag/v${{ steps.tabler.outputs.version }}
