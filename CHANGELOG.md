@@ -15,3 +15,6 @@ All notable changes to `filament-tabler-icons` will be documented in this file.
 
 ## v1.1.0 - 2026-03-8
 - update tabler icons to v3.40.0
+
+## v1.2.0 - 2026-03-30
+- update tabler icons to v3.41.0
