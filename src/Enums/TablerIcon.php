@@ -1140,6 +1140,7 @@ enum TablerIcon: string implements ScalableIcon
     case BrandIntercom = 'brand-intercom';
     case BrandItch = 'brand-itch';
     case BrandJavascript = 'brand-javascript';
+    case BrandJira = 'brand-jira';
     case BrandJuejin = 'brand-juejin';
     case BrandKakoTalk = 'brand-kako-talk';
     case BrandKbin = 'brand-kbin';
@@ -1630,6 +1631,8 @@ enum TablerIcon: string implements ScalableIcon
     case CarFilled = 'car-filled';
     case CarGarage = 'car-garage';
     case CarOff = 'car-off';
+    case CarOffRoad = 'car-off-road';
+    case CarSuspension = 'car-suspension';
     case CarSuv = 'car-suv';
     case CarSuvF = 'car-suv-f';
     case CarSuvFilled = 'car-suv-filled';
@@ -2473,6 +2476,7 @@ enum TablerIcon: string implements ScalableIcon
     case CreditCard = 'credit-card';
     case CreditCardF = 'credit-card-f';
     case CreditCardFilled = 'credit-card-filled';
+    case CreditCardHand = 'credit-card-hand';
     case CreditCardOff = 'credit-card-off';
     case CreditCardPay = 'credit-card-pay';
     case CreditCardRefund = 'credit-card-refund';
@@ -2636,6 +2640,8 @@ enum TablerIcon: string implements ScalableIcon
     case Desk = 'desk';
     case Details = 'details';
     case DetailsOff = 'details-off';
+    case Device3dCamera = 'device-3d-camera';
+    case Device3dLens = 'device-3d-lens';
     case DeviceAirpods = 'device-airpods';
     case DeviceAirpodsCase = 'device-airpods-case';
     case DeviceAirtag = 'device-airtag';
@@ -2790,6 +2796,7 @@ enum TablerIcon: string implements ScalableIcon
     case DeviceRemote = 'device-remote';
     case DeviceRemoteF = 'device-remote-f';
     case DeviceRemoteFilled = 'device-remote-filled';
+    case DeviceScreen = 'device-screen';
     case DeviceSdCard = 'device-sd-card';
     case DeviceSim = 'device-sim';
     case DeviceSim1 = 'device-sim-1';
@@ -3986,6 +3993,7 @@ enum TablerIcon: string implements ScalableIcon
     case IceCream2 = 'ice-cream-2';
     case IceCreamOff = 'ice-cream-off';
     case IceSkating = 'ice-skating';
+    case Iceberg = 'iceberg';
     case Icons = 'icons';
     case IconsF = 'icons-f';
     case IconsFilled = 'icons-filled';
@@ -4080,6 +4088,7 @@ enum TablerIcon: string implements ScalableIcon
     case Jetpack = 'jetpack';
     case JetpackF = 'jetpack-f';
     case JetpackFilled = 'jetpack-filled';
+    case Jetski = 'jetski';
     case JewishStar = 'jewish-star';
     case JewishStarF = 'jewish-star-f';
     case JewishStarFilled = 'jewish-star-filled';
@@ -5101,6 +5110,7 @@ enum TablerIcon: string implements ScalableIcon
     case OctahedronOff = 'octahedron-off';
     case OctahedronPlus = 'octahedron-plus';
     case Old = 'old';
+    case OlympicTorch = 'olympic-torch';
     case Olympics = 'olympics';
     case OlympicsOff = 'olympics-off';
     case Om = 'om';
@@ -5151,6 +5161,7 @@ enum TablerIcon: string implements ScalableIcon
     case ParkingCircle = 'parking-circle';
     case ParkingCircleF = 'parking-circle-f';
     case ParkingCircleFilled = 'parking-circle-filled';
+    case ParkingMeter = 'parking-meter';
     case ParkingOff = 'parking-off';
     case Password = 'password';
     case PasswordFingerprint = 'password-fingerprint';
@@ -5320,6 +5331,7 @@ enum TablerIcon: string implements ScalableIcon
     case PillF = 'pill-f';
     case PillFilled = 'pill-filled';
     case PillOff = 'pill-off';
+    case Pillow = 'pillow';
     case Pills = 'pills';
     case Pin = 'pin';
     case PinEnd = 'pin-end';
@@ -5331,6 +5343,7 @@ enum TablerIcon: string implements ScalableIcon
     case PinnedF = 'pinned-f';
     case PinnedFilled = 'pinned-filled';
     case PinnedOff = 'pinned-off';
+    case Pipeline = 'pipeline';
     case Pizza = 'pizza';
     case PizzaF = 'pizza-f';
     case PizzaFilled = 'pizza-filled';
@@ -5547,6 +5560,7 @@ enum TablerIcon: string implements ScalableIcon
     case QuoteF = 'quote-f';
     case QuoteFilled = 'quote-filled';
     case QuoteOff = 'quote-off';
+    case QuoteOpen = 'quote-open';
     case Quotes = 'quotes';
     case Radar = 'radar';
     case Radar2 = 'radar-2';
@@ -5772,6 +5786,8 @@ enum TablerIcon: string implements ScalableIcon
     case ScaleOutlineOff = 'scale-outline-off';
     case Scan = 'scan';
     case ScanEye = 'scan-eye';
+    case ScanLetterA = 'scan-letter-a';
+    case ScanLetterT = 'scan-letter-t';
     case ScanPosition = 'scan-position';
     case ScanTraces = 'scan-traces';
     case Schema = 'schema';
@@ -5818,6 +5834,7 @@ enum TablerIcon: string implements ScalableIcon
     case SeedlingF = 'seedling-f';
     case SeedlingFilled = 'seedling-filled';
     case SeedlingOff = 'seedling-off';
+    case Segway = 'segway';
     case Select = 'select';
     case SelectAll = 'select-all';
     case Selector = 'selector';
@@ -7064,6 +7081,7 @@ enum TablerIcon: string implements ScalableIcon
     case X = 'x';
     case XF = 'x-f';
     case XFilled = 'x-filled';
+    case XMark = 'x-mark';
     case XPowerY = 'x-power-y';
     case XboxA = 'xbox-a';
     case XboxAF = 'xbox-a-f';
