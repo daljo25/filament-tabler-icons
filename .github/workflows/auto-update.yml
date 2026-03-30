@@ -2,7 +2,7 @@ name: Auto Update Tabler Icons
 
 on:
   schedule:
-    - cron: "0 3 * * *" # Todos los días a las 3:00 AM
+    - cron: "0 13 * * 1" # Todos los días lunes a las 13:00
   workflow_dispatch: # Permite ejecutarlo manualmente desde la pestaña Actions
 
 permissions:
