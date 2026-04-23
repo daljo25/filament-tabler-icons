@@ -33,6 +33,32 @@ The icons are automatically available after installation.
 
 ---
 
+## Automatic Icon Replacement
+
+Once installed, this plugin **automatically replaces all Filament UI icons** with Tabler Icons, including:
+
+### Panels Icons
+- Sidebar navigation icons
+- Collapse/expand buttons
+- Search field icon
+- Filter buttons
+- Dashboard icons
+- User menu icons
+- Theme switcher icons (Light, Dark, System)
+- Database notifications icons
+
+### Notifications Icons
+- Notification status icons (success, danger, warning, info)
+- Close button icon
+- Empty state icons
+
+### Widgets Icons
+- Chart filter icons
+
+This means you don't need to do anything—Tabler Icons will be used throughout your Filament admin panel automatically!
+
+---
+
 ## Usage
 
 ### Import the enum

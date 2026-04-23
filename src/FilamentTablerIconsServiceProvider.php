@@ -3,6 +3,7 @@
 namespace Daljo25\FilamentTablerIcons;
 
 use Filament\Support\Assets\Asset;
+use Filament\Support\Facades\FilamentIcon;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
@@ -26,65 +27,11 @@ class FilamentTablerIconsServiceProvider extends PackageServiceProvider
 
     public function packageBooted(): void
     {
-        //
+        FilamentIcon::register(TablerIcons::getIconMap());
     }
 
     protected function getAssetPackageName(): ?string
     {
         return 'daljo25/filament-tabler-icons';
-    }
-
-    /**
-     * @return array<Asset>
-     */
-    protected function getAssets(): array
-    {
-        return [
-            //
-        ];
-    }
-
-    /**
-     * @return array<class-string>
-     */
-    protected function getCommands(): array
-    {
-        return [
-            FilamentTablerIconsCommand::class,
-        ];
-    }
-
-    /**
-     * @return array<string>
-     */
-    protected function getIcons(): array
-    {
-        return [];
-    }
-
-    /**
-     * @return array<string>
-     */
-    protected function getRoutes(): array
-    {
-        return [];
-    }
-
-    /**
-     * @return array<string, mixed>
-     */
-    protected function getScriptData(): array
-    {
-        return [];
-    }
-
-    /**
-     * @return array<string>
-     */
-    protected function getMigrations(): array
-    {
-        return [
-            //
-        ];
     }
 }
