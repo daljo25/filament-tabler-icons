@@ -17,6 +17,7 @@ class FilamentTablerIconsServiceProvider extends PackageServiceProvider
     public function configurePackage(Package $package): void
     {
         $package->name(static::$name)
+            ->hasConfigFile()
             ->hasInstallCommand(function (InstallCommand $command) {
                 $command
                     ->askToStarRepoOnGitHub('daljo25/filament-tabler-icons');
@@ -27,7 +28,9 @@ class FilamentTablerIconsServiceProvider extends PackageServiceProvider
 
     public function packageBooted(): void
     {
-        FilamentIcon::register(TablerIcons::getIconMap());
+        if (config('filament-tabler-icons.enabled', true)) {
+            FilamentIcon::register(TablerIcons::getIconMap());
+        }
     }
 
     protected function getAssetPackageName(): ?string

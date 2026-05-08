@@ -28,8 +28,33 @@ Install the package via Composer:
 composer require daljo25/filament-tabler-icons
 ```
 
-No additional configuration is required.
-The icons are automatically available after installation.
+(Optional) You can publish the configuration file to customize the plugin's behavior:
+
+```bash
+php artisan vendor:publish --tag=filament-tabler-icons-config
+```
+
+---
+
+## Configuration
+
+The configuration file allows you to control the automatic icon replacement and define custom overrides.
+
+```php
+return [
+    // Enable or disable automatic icon replacement
+    'enabled' => true,
+
+    // Define custom icon overrides
+    'icons' => [
+        'panels::global-search-field' => 'tabler-zoom-2',
+    ],
+];
+```
+
+### Icon Aliases
+
+You can override any of Filament's default icon aliases. For a full list of available aliases, check the [official Filament documentation](https://filamentphp.com/docs/5.x/styling/icons#available-icon-aliases).
 
 ---
 

@@ -19,7 +19,7 @@ class TablerIcons
      */
     public static function getIconMap(): array
     {
-        return [
+        $icons = [
             // Panels icon aliases
         PanelsIconAlias::GLOBAL_SEARCH_FIELD => TablerIcon::Search,
         PanelsIconAlias::PAGES_DASHBOARD_ACTIONS_FILTER => TablerIcon::Filter,
@@ -35,8 +35,8 @@ class TablerIcons
         PanelsIconAlias::SIDEBAR_EXPAND_BUTTON_RTL => TablerIcon::ChevronLeft,
         PanelsIconAlias::SIDEBAR_GROUP_COLLAPSE_BUTTON => TablerIcon::ChevronDown,
         PanelsIconAlias::TENANT_MENU_BILLING_BUTTON => TablerIcon::CreditCard,
-        PanelsIconAlias::TENANT_MENU_PROFILE_BUTTON => TablerIcon::User,
-        PanelsIconAlias::TENANT_MENU_REGISTRATION_BUTTON => TablerIcon::UserPlus,
+        PanelsIconAlias::TENANT_MENU_PROFILE_BUTTON => TablerIcon::Settings2,
+        PanelsIconAlias::TENANT_MENU_REGISTRATION_BUTTON => TablerIcon::Plus,
         PanelsIconAlias::TENANT_MENU_TOGGLE_BUTTON => TablerIcon::Menu,
         PanelsIconAlias::THEME_SWITCHER_LIGHT_BUTTON => TablerIcon::Sun,
         PanelsIconAlias::THEME_SWITCHER_DARK_BUTTON => TablerIcon::Moon,
@@ -170,5 +170,7 @@ class TablerIcons
         SupportIconAlias::PAGINATION_PREVIOUS_BUTTON_RTL => TablerIcon::ChevronRight,
         SupportIconAlias::SECTION_COLLAPSE_BUTTON => TablerIcon::ChevronDown,
         ];
+
+        return array_merge($icons, config('filament-tabler-icons.icons', []));
     }
 }
