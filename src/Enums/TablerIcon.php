@@ -19,6 +19,8 @@ enum TablerIcon: string implements ScalableIcon
     case AccessibleF = 'accessible-f';
     case AccessibleFilled = 'accessible-filled';
     case AccessibleOff = 'accessible-off';
+    case Acorn = 'acorn';
+    case Acrobatic = 'acrobatic';
     case Activity = 'activity';
     case ActivityHeartbeat = 'activity-heartbeat';
     case Ad = 'ad';
@@ -617,6 +619,7 @@ enum TablerIcon: string implements ScalableIcon
     case BallpenFilled = 'ballpen-filled';
     case BallpenOff = 'ballpen-off';
     case Ban = 'ban';
+    case Banana = 'banana';
     case Bandage = 'bandage';
     case BandageF = 'bandage-f';
     case BandageFilled = 'bandage-filled';
@@ -991,6 +994,7 @@ enum TablerIcon: string implements ScalableIcon
     case BrandArc = 'brand-arc';
     case BrandAsana = 'brand-asana';
     case BrandAstro = 'brand-astro';
+    case BrandAudible = 'brand-audible';
     case BrandAuth0 = 'brand-auth0';
     case BrandAws = 'brand-aws';
     case BrandAzure = 'brand-azure';
@@ -1277,6 +1281,7 @@ enum TablerIcon: string implements ScalableIcon
     case BrandSteam = 'brand-steam';
     case BrandSteamF = 'brand-steam-f';
     case BrandSteamFilled = 'brand-steam-filled';
+    case BrandStellar = 'brand-stellar';
     case BrandStocktwits = 'brand-stocktwits';
     case BrandStorj = 'brand-storj';
     case BrandStorybook = 'brand-storybook';
@@ -1336,6 +1341,7 @@ enum TablerIcon: string implements ScalableIcon
     case BrandUnsplash = 'brand-unsplash';
     case BrandUpwork = 'brand-upwork';
     case BrandValorant = 'brand-valorant';
+    case BrandVechain = 'brand-vechain';
     case BrandVercel = 'brand-vercel';
     case BrandVercelF = 'brand-vercel-f';
     case BrandVercelFilled = 'brand-vercel-filled';
@@ -1469,6 +1475,7 @@ enum TablerIcon: string implements ScalableIcon
     case BuildingCog = 'building-cog';
     case BuildingCommunity = 'building-community';
     case BuildingCottage = 'building-cottage';
+    case BuildingEiffelTower = 'building-eiffel-tower';
     case BuildingEstate = 'building-estate';
     case BuildingFactory = 'building-factory';
     case BuildingFactory2 = 'building-factory-2';
@@ -1620,6 +1627,7 @@ enum TablerIcon: string implements ScalableIcon
     case CarCraneF = 'car-crane-f';
     case CarCraneFilled = 'car-crane-filled';
     case CarCrash = 'car-crash';
+    case CarDoor = 'car-door';
     case CarF = 'car-f';
     case CarFan = 'car-fan';
     case CarFan1 = 'car-fan-1';
@@ -1630,6 +1638,7 @@ enum TablerIcon: string implements ScalableIcon
     case CarFanFilled = 'car-fan-filled';
     case CarFilled = 'car-filled';
     case CarGarage = 'car-garage';
+    case CarLifter = 'car-lifter';
     case CarOff = 'car-off';
     case CarOffRoad = 'car-off-road';
     case CarSuspension = 'car-suspension';
@@ -1850,6 +1859,7 @@ enum TablerIcon: string implements ScalableIcon
     case ChevronsUpLeft = 'chevrons-up-left';
     case ChevronsUpRight = 'chevrons-up-right';
     case Chisel = 'chisel';
+    case Chocolate = 'chocolate';
     case ChristmasBall = 'christmas-ball';
     case ChristmasTree = 'christmas-tree';
     case ChristmasTreeF = 'christmas-tree-f';
@@ -2158,6 +2168,8 @@ enum TablerIcon: string implements ScalableIcon
     case CircuitVoltmeter = 'circuit-voltmeter';
     case ClearAll = 'clear-all';
     case ClearFormatting = 'clear-formatting';
+    case Clef = 'clef';
+    case ClefStaff = 'clef-staff';
     case Click = 'click';
     case ClickF = 'click-f';
     case ClickFilled = 'click-filled';
@@ -2310,6 +2322,7 @@ enum TablerIcon: string implements ScalableIcon
     case ClubsF = 'clubs-f';
     case ClubsFilled = 'clubs-filled';
     case Code = 'code';
+    case CodeAi = 'code-ai';
     case CodeAsterisk = 'code-asterisk';
     case CodeCircle = 'code-circle';
     case CodeCircle2 = 'code-circle-2';
@@ -2556,6 +2569,7 @@ enum TablerIcon: string implements ScalableIcon
     case CurrencyFrank = 'currency-frank';
     case CurrencyGuarani = 'currency-guarani';
     case CurrencyHryvnia = 'currency-hryvnia';
+    case CurrencyHusd = 'currency-husd';
     case CurrencyIranianRial = 'currency-iranian-rial';
     case CurrencyKip = 'currency-kip';
     case CurrencyKroneCzech = 'currency-krone-czech';
@@ -2589,12 +2603,14 @@ enum TablerIcon: string implements ScalableIcon
     case CurrencySom = 'currency-som';
     case CurrencyTaka = 'currency-taka';
     case CurrencyTenge = 'currency-tenge';
+    case CurrencyTether = 'currency-tether';
     case CurrencyTugrik = 'currency-tugrik';
     case CurrencyWon = 'currency-won';
     case CurrencyXrp = 'currency-xrp';
     case CurrencyYen = 'currency-yen';
     case CurrencyYenOff = 'currency-yen-off';
     case CurrencyYuan = 'currency-yuan';
+    case CurrencyZcash = 'currency-zcash';
     case CurrencyZloty = 'currency-zloty';
     case CurrentLocation = 'current-location';
     case CurrentLocationF = 'current-location-f';
@@ -2653,6 +2669,7 @@ enum TablerIcon: string implements ScalableIcon
     case DeviceCctvFilled = 'device-cctv-filled';
     case DeviceCctvOff = 'device-cctv-off';
     case DeviceComputerCamera = 'device-computer-camera';
+    case DeviceComputerCamera2 = 'device-computer-camera-2';
     case DeviceComputerCameraOff = 'device-computer-camera-off';
     case DeviceDesktop = 'device-desktop';
     case DeviceDesktopAnalytics = 'device-desktop-analytics';
@@ -2966,6 +2983,7 @@ enum TablerIcon: string implements ScalableIcon
     case Door = 'door';
     case DoorEnter = 'door-enter';
     case DoorExit = 'door-exit';
+    case DoorHanger = 'door-hanger';
     case DoorOff = 'door-off';
     case Dots = 'dots';
     case DotsCircleHorizontal = 'dots-circle-horizontal';
@@ -3022,6 +3040,7 @@ enum TablerIcon: string implements ScalableIcon
     case DualScreen = 'dual-screen';
     case DualScreenF = 'dual-screen-f';
     case DualScreenFilled = 'dual-screen-filled';
+    case Dumbbell = 'dumbbell';
     case Dumpling = 'dumpling';
     case DumplingF = 'dumpling-f';
     case DumplingFilled = 'dumpling-filled';
@@ -3029,6 +3048,7 @@ enum TablerIcon: string implements ScalableIcon
     case Ear = 'ear';
     case EarOff = 'ear-off';
     case EarScan = 'ear-scan';
+    case EarphoneBluetooth = 'earphone-bluetooth';
     case EaseIn = 'ease-in';
     case EaseInControlPoint = 'ease-in-control-point';
     case EaseInControlPointF = 'ease-in-control-point-f';
@@ -3062,6 +3082,7 @@ enum TablerIcon: string implements ScalableIcon
     case ElevatorF = 'elevator-f';
     case ElevatorFilled = 'elevator-filled';
     case ElevatorOff = 'elevator-off';
+    case EmailStamp = 'email-stamp';
     case EmergencyBed = 'emergency-bed';
     case Empathize = 'empathize';
     case EmpathizeOff = 'empathize-off';
@@ -3095,6 +3116,7 @@ enum TablerIcon: string implements ScalableIcon
     case ExclamationCircleFilled = 'exclamation-circle-filled';
     case ExclamationMark = 'exclamation-mark';
     case ExclamationMarkOff = 'exclamation-mark-off';
+    case ExerciseBall = 'exercise-ball';
     case Explicit = 'explicit';
     case ExplicitF = 'explicit-f';
     case ExplicitFilled = 'explicit-filled';
@@ -3479,6 +3501,7 @@ enum TablerIcon: string implements ScalableIcon
     case FloatLeft = 'float-left';
     case FloatNone = 'float-none';
     case FloatRight = 'float-right';
+    case Flood = 'flood';
     case Flower = 'flower';
     case FlowerF = 'flower-f';
     case FlowerFilled = 'flower-filled';
@@ -3522,6 +3545,7 @@ enum TablerIcon: string implements ScalableIcon
     case FoldersF = 'folders-f';
     case FoldersFilled = 'folders-filled';
     case FoldersOff = 'folders-off';
+    case Foodsteps = 'foodsteps';
     case Forbid = 'forbid';
     case Forbid2 = 'forbid-2';
     case Forbid2F = 'forbid-2-f';
@@ -3611,6 +3635,7 @@ enum TablerIcon: string implements ScalableIcon
     case GitMerge = 'git-merge';
     case GitPullRequest = 'git-pull-request';
     case GitPullRequestClosed = 'git-pull-request-closed';
+    case GitPullRequestConflict = 'git-pull-request-conflict';
     case GitPullRequestDraft = 'git-pull-request-draft';
     case Gizmo = 'gizmo';
     case Glass = 'glass';
@@ -3637,6 +3662,7 @@ enum TablerIcon: string implements ScalableIcon
     case GpsFilled = 'gps-filled';
     case Gradienter = 'gradienter';
     case Grain = 'grain';
+    case Grape = 'grape';
     case Graph = 'graph';
     case GraphF = 'graph-f';
     case GraphFilled = 'graph-filled';
@@ -3669,6 +3695,7 @@ enum TablerIcon: string implements ScalableIcon
     case H5 = 'h-5';
     case H6 = 'h-6';
     case Hammer = 'hammer';
+    case HammerDrill = 'hammer-drill';
     case HammerOff = 'hammer-off';
     case HandClick = 'hand-click';
     case HandClickOff = 'hand-click-off';
@@ -3989,6 +4016,7 @@ enum TablerIcon: string implements ScalableIcon
     case HttpQueOff = 'http-que-off';
     case HttpTrace = 'http-trace';
     case HttpTraceOff = 'http-trace-off';
+    case HulaHoop = 'hula-hoop';
     case IceCream = 'ice-cream';
     case IceCream2 = 'ice-cream-2';
     case IceCreamOff = 'ice-cream-off';
@@ -4013,6 +4041,7 @@ enum TablerIcon: string implements ScalableIcon
     case IndentDecrease = 'indent-decrease';
     case IndentIncrease = 'indent-increase';
     case Infinity = 'infinity';
+    case Infinity2 = 'infinity-2';
     case InfinityOff = 'infinity-off';
     case InfoCircle = 'info-circle';
     case InfoCircleF = 'info-circle-f';
@@ -4163,6 +4192,7 @@ enum TablerIcon: string implements ScalableIcon
     case LaurelWreath3Filled = 'laurel-wreath-3-filled';
     case LaurelWreathF = 'laurel-wreath-f';
     case LaurelWreathFilled = 'laurel-wreath-filled';
+    case LawnMower = 'lawn-mower';
     case LayersDifference = 'layers-difference';
     case LayersIntersect = 'layers-intersect';
     case LayersIntersect2 = 'layers-intersect-2';
@@ -4273,6 +4303,7 @@ enum TablerIcon: string implements ScalableIcon
     case Leaf2 = 'leaf-2';
     case LeafF = 'leaf-f';
     case LeafFilled = 'leaf-filled';
+    case LeafMaple = 'leaf-maple';
     case LeafOff = 'leaf-off';
     case Lego = 'lego';
     case LegoF = 'lego-f';
@@ -4389,6 +4420,7 @@ enum TablerIcon: string implements ScalableIcon
     case Loader = 'loader';
     case Loader2 = 'loader-2';
     case Loader3 = 'loader-3';
+    case Loader4 = 'loader-4';
     case LoaderQuarter = 'loader-quarter';
     case Location = 'location';
     case LocationBolt = 'location-bolt';
@@ -4874,6 +4906,7 @@ enum TablerIcon: string implements ScalableIcon
     case MoonOff = 'moon-off';
     case MoonStars = 'moon-stars';
     case Moped = 'moped';
+    case Mosque = 'mosque';
     case Motorbike = 'motorbike';
     case MotorbikeF = 'motorbike-f';
     case MotorbikeFilled = 'motorbike-filled';
@@ -4964,7 +4997,9 @@ enum TablerIcon: string implements ScalableIcon
     case NoCopyright = 'no-copyright';
     case NoCreativeCommons = 'no-creative-commons';
     case NoDerivatives = 'no-derivatives';
+    case NoiseReduction = 'noise-reduction';
     case NorthStar = 'north-star';
+    case Notdef = 'notdef';
     case Note = 'note';
     case NoteOff = 'note-off';
     case Notebook = 'notebook';
@@ -5198,6 +5233,7 @@ enum TablerIcon: string implements ScalableIcon
     case PencilStar = 'pencil-star';
     case PencilUp = 'pencil-up';
     case PencilX = 'pencil-x';
+    case Pendulum = 'pendulum';
     case Pennant = 'pennant';
     case Pennant2 = 'pennant-2';
     case Pennant2F = 'pennant-2-f';
@@ -5270,6 +5306,7 @@ enum TablerIcon: string implements ScalableIcon
     case PhoneXFilled = 'phone-x-filled';
     case Photo = 'photo';
     case PhotoAi = 'photo-ai';
+    case PhotoAlt = 'photo-alt';
     case PhotoBitcoin = 'photo-bitcoin';
     case PhotoBolt = 'photo-bolt';
     case PhotoCancel = 'photo-cancel';
@@ -5464,6 +5501,7 @@ enum TablerIcon: string implements ScalableIcon
     case PlugConnectedX = 'plug-connected-x';
     case PlugOff = 'plug-off';
     case PlugX = 'plug-x';
+    case Plunger = 'plunger';
     case Plus = 'plus';
     case PlusEqual = 'plus-equal';
     case PlusF = 'plus-f';
@@ -5477,11 +5515,14 @@ enum TablerIcon: string implements ScalableIcon
     case PointFilled = 'point-filled';
     case PointOff = 'point-off';
     case Pointer = 'pointer';
+    case Pointer2 = 'pointer-2';
     case PointerBolt = 'pointer-bolt';
     case PointerCancel = 'pointer-cancel';
     case PointerCheck = 'pointer-check';
     case PointerCode = 'pointer-code';
     case PointerCog = 'pointer-cog';
+    case PointerCollaboration = 'pointer-collaboration';
+    case PointerCollaboration2 = 'pointer-collaboration-2';
     case PointerDollar = 'pointer-dollar';
     case PointerDown = 'pointer-down';
     case PointerExclamation = 'pointer-exclamation';
@@ -5734,6 +5775,7 @@ enum TablerIcon: string implements ScalableIcon
     case RotateClockwise2 = 'rotate-clockwise-2';
     case RotateDot = 'rotate-dot';
     case RotateRectangle = 'rotate-rectangle';
+    case Roulette = 'roulette';
     case Route = 'route';
     case Route2 = 'route-2';
     case RouteAltLeft = 'route-alt-left';
@@ -5752,6 +5794,7 @@ enum TablerIcon: string implements ScalableIcon
     case Rss = 'rss';
     case RubberStamp = 'rubber-stamp';
     case RubberStampOff = 'rubber-stamp-off';
+    case Rugby = 'rugby';
     case Ruler = 'ruler';
     case Ruler2 = 'ruler-2';
     case Ruler2Off = 'ruler-2-off';
@@ -5785,6 +5828,7 @@ enum TablerIcon: string implements ScalableIcon
     case ScaleOutline = 'scale-outline';
     case ScaleOutlineOff = 'scale-outline-off';
     case Scan = 'scan';
+    case ScanCube = 'scan-cube';
     case ScanEye = 'scan-eye';
     case ScanLetterA = 'scan-letter-a';
     case ScanLetterT = 'scan-letter-t';
@@ -6001,6 +6045,7 @@ enum TablerIcon: string implements ScalableIcon
     case Skateboard = 'skateboard';
     case SkateboardOff = 'skateboard-off';
     case Skateboarding = 'skateboarding';
+    case Sketching = 'sketching';
     case SkewX = 'skew-x';
     case SkewY = 'skew-y';
     case SkiJumping = 'ski-jumping';
@@ -6065,6 +6110,9 @@ enum TablerIcon: string implements ScalableIcon
     case Spade = 'spade';
     case SpadeF = 'spade-f';
     case SpadeFilled = 'spade-filled';
+    case Sparkle = 'sparkle';
+    case Sparkle2 = 'sparkle-2';
+    case SparkleHighlight = 'sparkle-highlight';
     case Sparkles = 'sparkles';
     case Sparkles2 = 'sparkles-2';
     case Sparkles2F = 'sparkles-2-f';
@@ -6076,6 +6124,7 @@ enum TablerIcon: string implements ScalableIcon
     case SpeedboatF = 'speedboat-f';
     case SpeedboatFilled = 'speedboat-filled';
     case Sphere = 'sphere';
+    case Sphere2 = 'sphere-2';
     case SphereOff = 'sphere-off';
     case SpherePlus = 'sphere-plus';
     case Spider = 'spider';
@@ -6607,6 +6656,7 @@ enum TablerIcon: string implements ScalableIcon
     case TagsF = 'tags-f';
     case TagsFilled = 'tags-filled';
     case TagsOff = 'tags-off';
+    case TaiwanDollar = 'taiwan-dollar';
     case Tallymark1 = 'tallymark-1';
     case Tallymark2 = 'tallymark-2';
     case Tallymark3 = 'tallymark-3';
@@ -6614,6 +6664,7 @@ enum TablerIcon: string implements ScalableIcon
     case Tallymarks = 'tallymarks';
     case Tank = 'tank';
     case Target = 'target';
+    case Target2 = 'target-2';
     case TargetArrow = 'target-arrow';
     case TargetOff = 'target-off';
     case Tax = 'tax';
@@ -6660,6 +6711,7 @@ enum TablerIcon: string implements ScalableIcon
     case TextRecognition = 'text-recognition';
     case TextResize = 'text-resize';
     case TextScan2 = 'text-scan-2';
+    case TextScanAi = 'text-scan-ai';
     case TextSize = 'text-size';
     case TextSpellcheck = 'text-spellcheck';
     case TextWrap = 'text-wrap';
@@ -6857,6 +6909,7 @@ enum TablerIcon: string implements ScalableIcon
     case UmbrellaFilled = 'umbrella-filled';
     case UmbrellaOff = 'umbrella-off';
     case Underline = 'underline';
+    case Unicycle = 'unicycle';
     case Universe = 'universe';
     case Unlink = 'unlink';
     case Upload = 'upload';
@@ -6945,6 +6998,7 @@ enum TablerIcon: string implements ScalableIcon
     case ViewportShort = 'viewport-short';
     case ViewportTall = 'viewport-tall';
     case ViewportWide = 'viewport-wide';
+    case Vignette = 'vignette';
     case Vinyl = 'vinyl';
     case Vip = 'vip';
     case Vip2 = 'vip-2';
