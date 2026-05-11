@@ -2,8 +2,8 @@ name: Auto Update Tabler Icons
 
 on:
   schedule:
-    - cron: "0 13 * * 1" # Todos los días lunes a las 13:00
-  workflow_dispatch: # Permite ejecutarlo manualmente desde la pestaña Actions
+    - cron: "0 13 * * 1"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -16,9 +16,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          # Importante: Usar fetch-depth 0 para que git tenga todo el historial
           fetch-depth: 0
           token: ${{ secrets.MY_GITHUB_TOKEN }}
+
+      # FIX NODE VERSION (evita warnings de Node 20)
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
 
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
@@ -30,38 +35,38 @@ jobs:
         run: composer install --no-interaction --no-progress
 
       - name: Update blade-tabler-icons
-        # Forzamos el update del paquete específico
         run: composer update secondnetwork/blade-tabler-icons --no-interaction
 
       - name: Get installed Tabler version
         id: tabler
         run: |
-          # Extraemos la versión instalada de forma más robusta
           VERSION=$(composer show secondnetwork/blade-tabler-icons | grep 'versions' | awk '{print $3}' | sed 's/v//g' | sed 's/,//g')
           echo "version=$VERSION" >> $GITHUB_OUTPUT
 
       - name: Regenerate enums
         run: php update-tabler-enum.php
 
-      - name: Check for changes
-        id: changes
-        run: |
-          # Comprobamos si hay cambios en composer.json, composer.lock o los Enums
-          if [[ -n "$(git status --porcelain)" ]]; then
-            echo "changed=true" >> $GITHUB_OUTPUT
-          else
-            echo "changed=false" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Commit and Push to Main
-        if: steps.changes.outputs.changed == 'true'
+      # 🔥 FIX CRÍTICO: sincronizar repo ANTES de commit
+      - name: Sync with remote
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          
-          git pull origin main --rebase
-          
-          git add .
-          # Asegúrate de que el mensaje coincida EXACTAMENTE con el 'if' del otro workflow
+
+          git fetch origin main
+          git reset --hard origin/main
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and Push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
           git commit -m "chore: update Tabler icons to v${{ steps.tabler.outputs.version }}"
           git push origin main
