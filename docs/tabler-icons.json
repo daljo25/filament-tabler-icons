@@ -497,6 +497,20 @@
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-air-traffic-control\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M11 3h2\" />\n  <path d=\"M12 3v3\" />\n  <path d=\"M5.998 6h12.004a2 2 0 0 1 1.916 2.575l-1.8 6a2 2 0 0 1 -1.916 1.425h-8.404a2 2 0 0 1 -1.916 -1.425l-1.8 -6a2 2 0 0 1 1.916 -2.575\" />\n  <path d=\"M8.5 6l1.5 10v5\" />\n  <path d=\"M15.5 6l-1.5 10v5\" />\n</svg>"
     },
     {
+        "name": "airpods-l",
+        "kebab": "airpods-l",
+        "enum": "AirpodsL",
+        "full_enum": "TablerIcon::AirpodsL",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-airpods-l\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M6 4a4 4 0 0 1 4 3.8v10.7a1.5 1.5 0 1 1 -3 0v-6.5h-1a4 4 0 0 1 -4 -3.8v-.2a4 4 0 0 1 4 -4\" />\n  <path d=\"M15 8v8h4\" />\n</svg>"
+    },
+    {
+        "name": "airpods-r",
+        "kebab": "airpods-r",
+        "enum": "AirpodsR",
+        "full_enum": "TablerIcon::AirpodsR",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-airpods-r\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M18 4a4 4 0 0 0 -4 3.8v10.7a1.5 1.5 0 1 0 3 0v-6.5h1a4 4 0 0 0 4 -3.8v-.2a4 4 0 0 0 -4 -4\" />\n  <path d=\"M5 12h2a2 2 0 1 0 0 -4h-2v8m4 0l-3 -4\" />\n</svg>"
+    },
+    {
         "name": "alarm",
         "kebab": "alarm",
         "enum": "Alarm",
@@ -11893,6 +11907,13 @@
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-cash-banknote-plus\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0\" />\n  <path d=\"M12.25 18h-7.25a2 2 0 0 1 -2 -2v-8a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v4.5\" />\n  <path d=\"M18 12h.01\" />\n  <path d=\"M6 12h.01\" />\n  <path d=\"M16 19h6\" />\n  <path d=\"M19 16v6\" />\n</svg>"
     },
     {
+        "name": "cash-coin",
+        "kebab": "cash-coin",
+        "enum": "CashCoin",
+        "full_enum": "TablerIcon::CashCoin",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-cash-coin\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M14.273 10.042a3 3 0 1 0 -3.282 4.784\" />\n  <path d=\"M11 18h-6a2 2 0 0 1 -2 -2v-8a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v2.5\" />\n  <path d=\"M6 12h.01\" />\n  <path d=\"M14 15c0 1.105 1.79 2 4 2s4 -.895 4 -2s-1.79 -2 -4 -2s-4 .895 -4 2\" />\n  <path d=\"M14 15v3c0 1.105 1.79 2 4 2s4 -.895 4 -2v-3\" />\n</svg>"
+    },
+    {
         "name": "cash-edit",
         "kebab": "cash-edit",
         "enum": "CashEdit",
@@ -17476,7 +17497,7 @@
         "kebab": "credits",
         "enum": "Credits",
         "full_enum": "TablerIcon::Credits",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-credits\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 14a6 2 0 1 0 12 0a6 2 0 1 0 -12 0\"  />\n  <path d=\"M3 14v5c0 1.105 2.686 2 6 2s6 -.895 6 -2v-5\" />\n  <path d=\"M9 5a6 2 0 1 0 12 0a6 2 0 1 0 -12 0\"  />\n  <path d=\"M9 5v3\" />\n  <path d=\"M18.365 11.656c1.59 -.36 2.635 -.966 2.635 -1.656v-5\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-credits\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 14a6 2 0 1 0 12 0a6 2 0 1 0 -12 0\" />\n  <path d=\"M3 14v5c0 1.105 2.686 2 6 2s6 -.895 6 -2v-5\" />\n  <path d=\"M9 5a6 2 0 1 0 12 0a6 2 0 1 0 -12 0\" />\n  <path d=\"M9 5v3\" />\n  <path d=\"M18.365 11.656c1.59 -.36 2.635 -.966 2.635 -1.656v-5\" />\n</svg>"
     },
     {
         "name": "cricket",
@@ -18253,7 +18274,7 @@
         "kebab": "currency-tether",
         "enum": "CurrencyTether",
         "full_enum": "TablerIcon::CurrencyTether",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-currency-tether\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M4 11a8 2 0 1 0 16 0a8 2 0 1 0 -16 0\"  />\n  <path d=\"M12 20v-16\" />\n  <path d=\"M4 4h16\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-currency-tether\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M4 11a8 2 0 1 0 16 0a8 2 0 1 0 -16 0\" />\n  <path d=\"M12 20v-16\" />\n  <path d=\"M4 4h16\" />\n</svg>"
     },
     {
         "name": "currency-tugrik",
@@ -18624,7 +18645,7 @@
         "kebab": "device-3d-camera",
         "enum": "Device3dCamera",
         "full_enum": "TablerIcon::Device3dCamera",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-device-3d-camera\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M11 8a2 2 0 0 1 2 -2a2 2 0 0 1 2 2a2 2 0 0 1 -2 2a2 2 0 0 1 -2 -2\" />\n  <path d=\"M8 6a3 3 0 0 1 3 -3h4a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-4a3 3 0 0 1 -3 -3v-12\"  />\n  <path d=\"M13 14v2\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-device-3d-camera\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M11 8a2 2 0 0 1 2 -2a2 2 0 0 1 2 2a2 2 0 0 1 -2 2a2 2 0 0 1 -2 -2\" />\n  <path d=\"M8 6a3 3 0 0 1 3 -3h4a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-4a3 3 0 0 1 -3 -3v-12\" />\n  <path d=\"M13 14v2\" />\n</svg>"
     },
     {
         "name": "device-3d-lens",
@@ -19723,7 +19744,7 @@
         "kebab": "device-screen",
         "enum": "DeviceScreen",
         "full_enum": "TablerIcon::DeviceScreen",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-device-screen\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M5 5a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-14\"  />\n  <path d=\"M15 7l-6 10\" />\n  <path d=\"M15 14l-1.75 3\" />\n  <path d=\"M10.75 7l-1.75 3\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-device-screen\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M5 5a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-14\" />\n  <path d=\"M15 7l-6 10\" />\n  <path d=\"M15 14l-1.75 3\" />\n  <path d=\"M10.75 7l-1.75 3\" />\n</svg>"
     },
     {
         "name": "device-sd-card",
@@ -21481,6 +21502,13 @@
         "enum": "Edit",
         "full_enum": "TablerIcon::Edit",
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-edit\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M7 7h-1a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-1\" />\n  <path d=\"M20.385 6.585a2.1 2.1 0 0 0 -2.97 -2.97l-8.415 8.385v3h3l8.385 -8.415\" />\n  <path d=\"M16 5l3 3\" />\n</svg>"
+    },
+    {
+        "name": "edit-bulk",
+        "kebab": "edit-bulk",
+        "enum": "EditBulk",
+        "full_enum": "TablerIcon::EditBulk",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-edit-bulk\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 4a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1v-2\" />\n  <path d=\"M3 11a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1v-2\" />\n  <path d=\"M20.385 9.585a2.1 2.1 0 0 0 -2.97 -2.97l-6.415 6.385v3h3l6.385 -6.415\" />\n  <path d=\"M16 8l3 3\" />\n  <path d=\"M3 18a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1v-2\" />\n</svg>"
     },
     {
         "name": "edit-circle",
@@ -24815,6 +24843,13 @@
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-folder-star\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M10 19h-5a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2h4l3 3h7a2 2 0 0 1 2 2v2.5\" />\n  <path d=\"M17.8 20.817l-2.172 1.138a.392 .392 0 0 1 -.568 -.41l.415 -2.411l-1.757 -1.707a.389 .389 0 0 1 .217 -.665l2.428 -.352l1.086 -2.193a.392 .392 0 0 1 .702 0l1.086 2.193l2.428 .352a.39 .39 0 0 1 .217 .665l-1.757 1.707l.414 2.41a.39 .39 0 0 1 -.567 .411l-2.172 -1.138\" />\n</svg>"
     },
     {
+        "name": "folder-stats",
+        "kebab": "folder-stats",
+        "enum": "FolderStats",
+        "full_enum": "TablerIcon::FolderStats",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-folder-stats\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M10.25 19h-5.25a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2h4l3 3h7a2 2 0 0 1 2 2v3\" />\n  <path d=\"M13 22l3 -3l2 2l4 -4\" />\n  <path d=\"M19 17h3v3\" />\n</svg>"
+    },
+    {
         "name": "folder-symlink",
         "kebab": "folder-symlink",
         "enum": "FolderSymlink",
@@ -24827,6 +24862,13 @@
         "enum": "FolderUp",
         "full_enum": "TablerIcon::FolderUp",
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-folder-up\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M12 19h-7a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2h4l3 3h7a2 2 0 0 1 2 2v3.5\" />\n  <path d=\"M19 22v-6\" />\n  <path d=\"M22 19l-3 -3l-3 3\" />\n</svg>"
+    },
+    {
+        "name": "folder-user",
+        "kebab": "folder-user",
+        "enum": "FolderUser",
+        "full_enum": "TablerIcon::FolderUser",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-folder-user\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M12.75 19h-7.75a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2h4l3 3h7a2 2 0 0 1 2 2v2.5\" />\n  <path d=\"M17 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0\" />\n  <path d=\"M22 22a2 2 0 0 0 -2 -2h-2a2 2 0 0 0 -2 2\" />\n</svg>"
     },
     {
         "name": "folder-x",
@@ -25681,6 +25723,20 @@
         "enum": "GpsFilled",
         "full_enum": "TablerIcon::GpsFilled",
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"currentColor\"\n  class=\"icon icon-tabler icons-tabler-filled icon-tabler-gps\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M17 3.34a10 10 0 1 1 -15 8.66l.005 -.324a10 10 0 0 1 14.995 -8.336m-.086 5.066c.372 -.837 -.483 -1.692 -1.32 -1.32l-9 4l-.108 .055c-.75 .44 -.611 1.609 .271 1.83l3.418 .853l.855 3.419c.23 .922 1.498 1.032 1.884 .163z\" />\n</svg>"
+    },
+    {
+        "name": "gpu",
+        "kebab": "gpu",
+        "enum": "Gpu",
+        "full_enum": "TablerIcon::Gpu",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-gpu\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 4v14\" />\n  <path d=\"M3 6h17a1 1 0 0 1 1 1v8a1 1 0 0 1 -1 1h-17\" />\n  <path d=\"M9 13a2 2 0 1 0 0 -4a2 2 0 0 0 0 4\" />\n  <path d=\"M15 9v4\" />\n  <path d=\"M18 9v4\" />\n  <path d=\"M7 16v3h8v-3\" />\n</svg>"
+    },
+    {
+        "name": "gpu-2",
+        "kebab": "gpu-2",
+        "enum": "Gpu2",
+        "full_enum": "TablerIcon::Gpu2",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-gpu-2\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M5 6a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v12a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1l0 -12\" />\n  <path d=\"M14 9h-2a2 2 0 0 0 -2 2v2a2 2 0 0 0 2 2h2v-3h-1\" />\n  <path d=\"M3 10h2\" />\n  <path d=\"M3 14h2\" />\n  <path d=\"M10 3v2\" />\n  <path d=\"M14 3v2\" />\n  <path d=\"M21 10h-2\" />\n  <path d=\"M21 14h-2\" />\n  <path d=\"M14 21v-2\" />\n  <path d=\"M10 21v-2\" />\n</svg>"
     },
     {
         "name": "gradienter",
@@ -27801,7 +27857,7 @@
         "kebab": "home-lock",
         "enum": "HomeLock",
         "full_enum": "TablerIcon::HomeLock",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-home-lock\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M5 12h-2l9 -9l8 8\" />\n  <path d=\"M5 12v7a2 2 0 0 0 2 2h6\" />\n  <path d=\"M9 21v-6a2 2 0 0 1 2 -2h2c.688 0 1.294 .347 1.654 .875\" />\n  <path d=\"M17 19a1 1 0 0 1 1 -1h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-2\"  />\n  <path d=\"M18 18v-1.5a1.5 1.5 0 1 1 3 0v1.5\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-home-lock\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M5 12h-2l9 -9l8 8\" />\n  <path d=\"M5 12v7a2 2 0 0 0 2 2h6\" />\n  <path d=\"M9 21v-6a2 2 0 0 1 2 -2h2c.688 0 1.294 .347 1.654 .875\" />\n  <path d=\"M17 19a1 1 0 0 1 1 -1h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-2\" />\n  <path d=\"M18 18v-1.5a1.5 1.5 0 1 1 3 0v1.5\" />\n</svg>"
     },
     {
         "name": "home-minus",
@@ -32022,7 +32078,7 @@
         "kebab": "map-lock",
         "enum": "MapLock",
         "full_enum": "TablerIcon::MapLock",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-map-lock\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0\" />\n  <path d=\"M13.004 21.216a2 2 0 0 1 -2.417 -.316l-4.244 -4.243a8 8 0 0 1 11.314 -11.314a7.93 7.93 0 0 1 2.343 5.657\" />\n  <path d=\"M17 19a1 1 0 0 1 1 -1h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-2\"  />\n  <path d=\"M18 18v-1.5a1.5 1.5 0 1 1 3 0v1.5\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-map-lock\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0\" />\n  <path d=\"M13.004 21.216a2 2 0 0 1 -2.417 -.316l-4.244 -4.243a8 8 0 0 1 11.314 -11.314a7.93 7.93 0 0 1 2.343 5.657\" />\n  <path d=\"M17 19a1 1 0 0 1 1 -1h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-2\" />\n  <path d=\"M18 18v-1.5a1.5 1.5 0 1 1 3 0v1.5\" />\n</svg>"
     },
     {
         "name": "map-minus",
@@ -32219,6 +32275,13 @@
         "enum": "MapPinX",
         "full_enum": "TablerIcon::MapPinX",
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-map-pin-x\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0\" />\n  <path d=\"M13.024 21.204a2 2 0 0 1 -2.437 -.304l-4.244 -4.243a8 8 0 1 1 13.119 -2.766\" />\n  <path d=\"M22 22l-5 -5\" />\n  <path d=\"M17 22l5 -5\" />\n</svg>"
+    },
+    {
+        "name": "map-pinned",
+        "kebab": "map-pinned",
+        "enum": "MapPinned",
+        "full_enum": "TablerIcon::MapPinned",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-map-pinned\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M14.828 10.828a4 4 0 1 0 -5.656 0l2.828 2.829l2.828 -2.829\" />\n  <path d=\"M12 8v.01\" />\n  <path d=\"M6 12h-.142a2 2 0 0 0 -1.923 1.45l-.858 3a2 2 0 0 0 1.924 2.55h13.999a2 2 0 0 0 1.923 -2.55l-.857 -3a2 2 0 0 0 -1.923 -1.45h-.143\" />\n</svg>"
     },
     {
         "name": "map-pins",
@@ -35095,7 +35158,7 @@
         "kebab": "notdef",
         "enum": "Notdef",
         "full_enum": "TablerIcon::Notdef",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-notdef\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M18.49 3.666l-12.976 16.673\" />\n  <path d=\"M5.51 3.666l12.976 16.673\" />\n  <path d=\"M5 5a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-14\"  />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-notdef\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M18.49 3.666l-12.976 16.673\" />\n  <path d=\"M5.51 3.666l12.976 16.673\" />\n  <path d=\"M5 5a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-14\" />\n</svg>"
     },
     {
         "name": "note",
@@ -36153,6 +36216,27 @@
         "enum": "Option",
         "full_enum": "TablerIcon::Option",
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-option\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M14 6h5m0 12h-5l-5 -12h-4\" />\n</svg>"
+    },
+    {
+        "name": "orbit",
+        "kebab": "orbit",
+        "enum": "Orbit",
+        "full_enum": "TablerIcon::Orbit",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-orbit\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M7.628 7.629c-2.76 .854 -4.628 2.491 -4.628 4.371c0 2.761 4.03 5 9 5s9 -2.239 9 -5s-4.03 -5 -9 -5\" />\n  <path d=\"M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0\" />\n</svg>"
+    },
+    {
+        "name": "orbit-vertical",
+        "kebab": "orbit-vertical",
+        "enum": "OrbitVertical",
+        "full_enum": "TablerIcon::OrbitVertical",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-orbit-vertical\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M16.372 16.372c.4 -1.295 .628 -2.785 .628 -4.372c0 -4.97 -2.239 -9 -5 -9s-5 4.03 -5 9s2.239 9 5 9c.596 0 1.168 -.188 1.698 -.533\" />\n  <path d=\"M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0\" />\n</svg>"
+    },
+    {
+        "name": "orbits",
+        "kebab": "orbits",
+        "enum": "Orbits",
+        "full_enum": "TablerIcon::Orbits",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-orbits\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0\" />\n  <path d=\"M7.628 7.629c-2.76 .854 -4.628 2.491 -4.628 4.371c0 2.761 4.03 5 9 5s9 -2.239 9 -5s-4.03 -5 -9 -5\" />\n  <path d=\"M16.372 16.372c.4 -1.295 .628 -2.785 .628 -4.372c0 -4.97 -2.239 -9 -5 -9s-5 4.03 -5 9s2.239 9 5 9c.596 0 1.168 -.188 1.698 -.533\" />\n</svg>"
     },
     {
         "name": "outbound",
@@ -37954,6 +38038,20 @@
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-play-basketball\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M9.007 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0\" />\n  <path d=\"M5 21l3 -3l.75 -1.5\" />\n  <path d=\"M14 21v-4l-4 -3l.5 -6\" />\n  <path d=\"M5 12l1 -3l4.5 -1l3.5 3l4 -.5\" />\n  <path d=\"M18.007 15.5a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0\" />\n</svg>"
     },
     {
+        "name": "play-bug",
+        "kebab": "play-bug",
+        "enum": "PlayBug",
+        "full_enum": "TablerIcon::PlayBug",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-play-bug\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3.5 18a2.5 3 0 1 0 5 0a2.5 3 0 1 0 -5 0\" />\n  <path d=\"M2 18h1.5\" />\n  <path d=\"M8.5 18h1.5\" />\n  <path d=\"M9.5 14.5l-1.5 1.5\" />\n  <path d=\"M2.5 14.5l1.5 1.5\" />\n  <path d=\"M2.5 21.5l1.5 -1.5\" />\n  <path d=\"M8 20l1.5 1.5\" />\n  <path d=\"M13 16l8 -5l-13 -8v8\" />\n</svg>"
+    },
+    {
+        "name": "play-bugs",
+        "kebab": "play-bugs",
+        "enum": "PlayBugs",
+        "full_enum": "TablerIcon::PlayBugs",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-play-bugs\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3.5 18a2.5 3 0 1 0 5 0a2.5 3 0 1 0 -5 0\" />\n  <path d=\"M2 17.5h1.5\" />\n  <path d=\"M8.5 17.5h1.5\" />\n  <path d=\"M9.5 14.5l-1.5 1.5\" />\n  <path d=\"M2.5 14.5l1.5 1.5\" />\n  <path d=\"M2.5 21.5l1.5 -1.5\" />\n  <path d=\"M8 20l1.5 1.5\" />\n  <path d=\"M15.5 16l6.5 -5l-11 -8\" />\n  <path d=\"M13 12.5l2 -1.5l-11 -8v8\" />\n</svg>"
+    },
+    {
         "name": "play-card",
         "kebab": "play-card",
         "enum": "PlayCard",
@@ -39274,7 +39372,7 @@
         "kebab": "queue-pop-in",
         "enum": "QueuePopIn",
         "full_enum": "TablerIcon::QueuePopIn",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-queue-pop-in\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M8 6h-3a2 2 0 0 0 -2 2v11a2 2 0 0 0 2 2h11a2 2 0 0 0 2 -2v-3.357\" />\n  <path d=\"M13 5a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2v-4\"  />\n  <path d=\"M13.5 10.5l-5.5 5.5\" />\n  <path d=\"M8 11v5h5\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-queue-pop-in\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M8 6h-3a2 2 0 0 0 -2 2v11a2 2 0 0 0 2 2h11a2 2 0 0 0 2 -2v-3.357\" />\n  <path d=\"M13 5a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2v-4\" />\n  <path d=\"M13.5 10.5l-5.5 5.5\" />\n  <path d=\"M8 11v5h5\" />\n</svg>"
     },
     {
         "name": "queue-pop-out",
@@ -39788,6 +39886,20 @@
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-recycle-off\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M12 17l-2 2l2 2m-2 -2h9m1.896 -2.071a2 2 0 0 0 -.146 -.679l-.55 -1\" />\n  <path d=\"M8.536 11l-.732 -2.732l-2.732 .732m2.732 -.732l-4.5 7.794a2 2 0 0 0 1.506 2.89l1.141 .024\" />\n  <path d=\"M15.464 11l2.732 .732l.732 -2.732m-.732 2.732l-4.5 -7.794a2 2 0 0 0 -3.256 -.14l-.591 .976\" />\n  <path d=\"M3 3l18 18\" />\n</svg>"
     },
     {
+        "name": "reduce-motion",
+        "kebab": "reduce-motion",
+        "enum": "ReduceMotion",
+        "full_enum": "TablerIcon::ReduceMotion",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-reduce-motion\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M8 12a7 7 0 1 0 14 0a7 7 0 1 0 -14 0\" />\n  <path d=\"M5.5 5.941v.007\" />\n  <path d=\"M2.941 8.498v.008\" />\n  <path d=\"M2 11.996v.008\" />\n  <path d=\"M2.941 15.494v.008\" />\n  <path d=\"M5.5 18.052v.007\" />\n  <path d=\"M9 18.992v.008\" />\n  <path d=\"M12.5 18.052v.007\" />\n  <path d=\"M15.059 15.494v.008\" />\n  <path d=\"M16 11.996v.008\" />\n  <path d=\"M15.059 8.498v.008\" />\n  <path d=\"M12.5 5.941v.007\" />\n  <path d=\"M9 5v.008\" />\n</svg>"
+    },
+    {
+        "name": "reference-image",
+        "kebab": "reference-image",
+        "enum": "ReferenceImage",
+        "full_enum": "TablerIcon::ReferenceImage",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-reference-image\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M14.121 9.879l4.95 4.95\" />\n  <path d=\"M5 7.2a2.2 2.2 0 0 1 2.2 -2.2h1a2.2 2.2 0 0 0 1.55 -.64l.7 -.7a2.2 2.2 0 0 1 3.12 0l.7 .7c.412 .41 .97 .64 1.55 .64h1a2.2 2.2 0 0 1 2.2 2.2v1c0 .58 .23 1.138 .64 1.55l.7 .7a2.2 2.2 0 0 1 0 3.12l-.7 .7a2.2 2.2 0 0 0 -.64 1.55v1a2.2 2.2 0 0 1 -2.2 2.2h-1a2.2 2.2 0 0 0 -1.55 .64l-.7 .7a2.2 2.2 0 0 1 -3.12 0l-.7 -.7a2.2 2.2 0 0 0 -1.55 -.64h-1a2.2 2.2 0 0 1 -2.2 -2.2v-1a2.2 2.2 0 0 0 -.64 -1.55l-.7 -.7a2.2 2.2 0 0 1 0 -3.12l.7 -.7a2.2 2.2 0 0 0 .64 -1.55v-1\" />\n  <path d=\"M5 15h7\" />\n  <path d=\"M12 9h7\" />\n  <path d=\"M9.172 19.071l4.95 -4.949\" />\n  <path d=\"M9.879 9.879l4.95 -4.95\" />\n  <path d=\"M9 5v7\" />\n  <path d=\"M15 12v7\" />\n  <path d=\"M4.93 9.172l4.949 4.95\" />\n  <path d=\"M15 12a3 3 0 1 1 -6 0a3 3 0 0 1 6 0\" />\n</svg>"
+    },
+    {
         "name": "refresh",
         "kebab": "refresh",
         "enum": "Refresh",
@@ -39919,6 +40031,13 @@
         "enum": "Reload",
         "full_enum": "TablerIcon::Reload",
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-reload\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M19.933 13.041a8 8 0 1 1 -9.925 -8.788c3.899 -1 7.935 1.007 9.425 4.747\" />\n  <path d=\"M20 4v5h-5\" />\n</svg>"
+    },
+    {
+        "name": "remote-control",
+        "kebab": "remote-control",
+        "enum": "RemoteControl",
+        "full_enum": "TablerIcon::RemoteControl",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-remote-control\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M9 14a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v5a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2v-5\" />\n  <path d=\"M20 9c-.914 -3.455 -4.15 -6 -8 -6c-3.853 0 -7.089 2.542 -8 6\" />\n  <path d=\"M15 9c-.69 -1.2 -1.517 -2 -3 -2s-2.31 .801 -3 2\" />\n</svg>"
     },
     {
         "name": "reorder",
@@ -40283,6 +40402,13 @@
         "enum": "RocketOff",
         "full_enum": "TablerIcon::RocketOff",
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-rocket-off\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M9.29 9.275a9.03 9.03 0 0 0 -.29 .725a6 6 0 0 0 -5 3a8 8 0 0 1 7 7a6 6 0 0 0 3 -5c.241 -.085 .478 -.18 .708 -.283m2.428 -1.61a9 9 0 0 0 2.864 -6.107a3 3 0 0 0 -3 -3a9 9 0 0 0 -6.107 2.864\" />\n  <path d=\"M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3\" />\n  <path d=\"M14 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0\" />\n  <path d=\"M3 3l18 18\" />\n</svg>"
+    },
+    {
+        "name": "rocking-chair",
+        "kebab": "rocking-chair",
+        "enum": "RockingChair",
+        "full_enum": "TablerIcon::RockingChair",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-rocking-chair\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M4 3l1.478 6.65a3 3 0 0 0 2.929 2.35h9.593\" />\n  <path d=\"M10 12l-3.5 7.5\" />\n  <path d=\"M14 12l3.5 7.5\" />\n  <path d=\"M3 16c1.966 2.992 4.75 5 9 5s7.035 -2.002 9 -5\" />\n</svg>"
     },
     {
         "name": "roller-skating",
@@ -40726,6 +40852,13 @@
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-run\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0\" />\n  <path d=\"M4 17l5 1l.75 -1.5\" />\n  <path d=\"M15 21v-4l-4 -3l1 -6\" />\n  <path d=\"M7 12v-3l5 -1l3 3l3 1\" />\n</svg>"
     },
     {
+        "name": "run-sprint",
+        "kebab": "run-sprint",
+        "enum": "RunSprint",
+        "full_enum": "TablerIcon::RunSprint",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-run-sprint\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M14.007 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0\" />\n  <path d=\"M7 17l5 1l.75 -1.5\" />\n  <path d=\"M18 21v-4l-4 -3l1 -6\" />\n  <path d=\"M10 12v-3l5 -1l3 3l3 1\" />\n  <path d=\"M10 5h-4\" />\n  <path d=\"M6 10h-4\" />\n</svg>"
+    },
+    {
         "name": "rv-truck",
         "kebab": "rv-truck",
         "enum": "RvTruck",
@@ -41167,6 +41300,13 @@
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-search-off\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M5.039 5.062a7 7 0 0 0 9.91 9.89m1.584 -2.434a7 7 0 0 0 -9.038 -9.057\" />\n  <path d=\"M3 3l18 18\" />\n</svg>"
     },
     {
+        "name": "secret-phrases",
+        "kebab": "secret-phrases",
+        "enum": "SecretPhrases",
+        "full_enum": "TablerIcon::SecretPhrases",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-secret-phrases\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M19 5h-14a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2 -2v-10a2 2 0 0 0 -2 -2\" />\n  <path d=\"M7 9h3\" />\n  <path d=\"M14 9h3\" />\n  <path d=\"M7 12h3\" />\n  <path d=\"M14 12h3\" />\n  <path d=\"M7 15h3\" />\n  <path d=\"M14 15h3\" />\n</svg>"
+    },
+    {
         "name": "section",
         "kebab": "section",
         "enum": "Section",
@@ -41346,7 +41486,7 @@
         "kebab": "server",
         "enum": "Server",
         "full_enum": "TablerIcon::Server",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-server\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 7a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3\" />\n  <path d=\"M3 15a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3l0 -2\" />\n  <path d=\"M7 8l0 .01\" />\n  <path d=\"M7 16l0 .01\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-server\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 7a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-2\" />\n  <path d=\"M3 15a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3l0 -2\" />\n  <path d=\"M7 8l0 .01\" />\n  <path d=\"M7 16l0 .01\" />\n</svg>"
     },
     {
         "name": "server-2",
@@ -41360,7 +41500,7 @@
         "kebab": "server-bolt",
         "enum": "ServerBolt",
         "full_enum": "TablerIcon::ServerBolt",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-server-bolt\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 7a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3\" />\n  <path d=\"M15 20h-9a3 3 0 0 1 -3 -3v-2a3 3 0 0 1 3 -3h12\" />\n  <path d=\"M7 8v.01\" />\n  <path d=\"M7 16v.01\" />\n  <path d=\"M20 15l-2 3h3l-2 3\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-server-bolt\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 7a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-2\" />\n  <path d=\"M15 20h-9a3 3 0 0 1 -3 -3v-2a3 3 0 0 1 3 -3h12\" />\n  <path d=\"M7 8v.01\" />\n  <path d=\"M7 16v.01\" />\n  <path d=\"M20 15l-2 3h3l-2 3\" />\n</svg>"
     },
     {
         "name": "server-cog",
@@ -42907,7 +43047,7 @@
         "kebab": "sparkles-2",
         "enum": "Sparkles2",
         "full_enum": "TablerIcon::Sparkles2",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-sparkles-2\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M13 7a9.3 9.3 0 0 0 1.516 -.546c.911 -.438 1.494 -1.015 1.937 -1.932c.207 -.428 .382 -.928 .547 -1.522c.165 .595 .34 1.095 .547 1.521c.443 .918 1.026 1.495 1.937 1.933c.426 .205 .925 .38 1.516 .546a9.3 9.3 0 0 0 -1.516 .547c-.911 .438 -1.494 1.015 -1.937 1.932a9 9 0 0 0 -.547 1.521c-.165 -.594 -.34 -1.095 -.547 -1.521c-.443 -.918 -1.026 -1.494 -1.937 -1.932a9 9 0 0 0 -1.516 -.547\" />\n  <path d=\"M3 14a21 21 0 0 0 1.652 -.532c2.542 -.953 3.853 -2.238 4.816 -4.806a20 20 0 0 0 .532 -1.662a20 20 0 0 0 .532 1.662c.963 2.567 2.275 3.853 4.816 4.806q .75 .28 1.652 .532a21 21 0 0 0 -1.652 .532c-2.542 .953 -3.854 2.238 -4.816 4.806a20 20 0 0 0 -.532 1.662a20 20 0 0 0 -.532 -1.662c-.963 -2.568 -2.275 -3.853 -4.816 -4.806a21 21 0 0 0 -1.652 -.532\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-sparkles-2\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M14 6a9.3 9.3 0 0 0 1.516 -.546c.911 -.438 1.494 -1.015 1.937 -1.932c.207 -.428 .382 -.928 .547 -1.522c.165 .595 .34 1.095 .547 1.521c.443 .918 1.026 1.495 1.937 1.933c.426 .205 .925 .38 1.516 .546a9.3 9.3 0 0 0 -1.516 .547c-.911 .438 -1.494 1.015 -1.937 1.932a9 9 0 0 0 -.547 1.521c-.165 -.594 -.34 -1.095 -.547 -1.521c-.443 -.918 -1.026 -1.494 -1.937 -1.932a9 9 0 0 0 -1.516 -.547\" />\n  <path d=\"M3 14a21 21 0 0 0 1.652 -.532c2.542 -.953 3.853 -2.238 4.816 -4.806a20 20 0 0 0 .532 -1.662a20 20 0 0 0 .532 1.662c.963 2.567 2.275 3.853 4.816 4.806q .75 .28 1.652 .532a21 21 0 0 0 -1.652 .532c-2.542 .953 -3.854 2.238 -4.816 4.806a20 20 0 0 0 -.532 1.662a20 20 0 0 0 -.532 -1.662c-.963 -2.568 -2.275 -3.853 -4.816 -4.806a21 21 0 0 0 -1.652 -.532\" />\n</svg>"
     },
     {
         "name": "sparkles-2-f",
@@ -42922,6 +43062,13 @@
         "enum": "Sparkles2Filled",
         "full_enum": "TablerIcon::Sparkles2Filled",
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"currentColor\"\n  class=\"icon icon-tabler icons-tabler-filled icon-tabler-sparkles-2\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M17.964 2.733c.156 .563 .312 1 .484 1.353c.342 .71 .758 1.125 1.47 1.467c.353 .17 .79 .326 1.352 .484c.98 .276 .97 1.668 -.013 1.93a8.3 8.3 0 0 0 -1.34 .481c-.71 .342 -1.127 .757 -1.463 1.453a8 8 0 0 0 -.486 1.352c-.258 .988 -1.658 1 -1.932 .015c-.156 -.565 -.312 -1.002 -.484 -1.354c-.342 -.71 -.758 -1.124 -1.458 -1.46a8 8 0 0 0 -1.374 -.495a.4 .4 0 0 1 -.06 -.02l-.044 -.017l-.045 -.02l-.049 -.025l-.035 -.02a.4 .4 0 0 1 -.049 -.03l-.032 -.023l-.043 -.034l-.033 -.028l-.036 -.035l-.034 -.035l-.028 -.033l-.035 -.043l-.022 -.032a.4 .4 0 0 1 -.032 -.049l-.02 -.035l-.025 -.05l-.02 -.044l-.017 -.043a.4 .4 0 0 1 -.02 -.06l-.01 -.034a.5 .5 0 0 1 -.02 -.098l-.006 -.065l-.005 -.035v-.05a.4 .4 0 0 1 .003 -.085a.5 .5 0 0 1 .013 -.093a.5 .5 0 0 1 .024 -.103a.4 .4 0 0 1 .02 -.06l.017 -.044l.02 -.045l.025 -.049l.02 -.035a.4 .4 0 0 1 .03 -.049l.023 -.032l.034 -.043l.028 -.033l.035 -.036l.035 -.034q .015 -.015 .033 -.028l.043 -.035l.032 -.022a.4 .4 0 0 1 .049 -.032l.035 -.02l.05 -.025l.044 -.02l.043 -.017a.4 .4 0 0 1 .06 -.02l.027 -.008a8.3 8.3 0 0 0 1.339 -.48c.71 -.342 1.127 -.757 1.47 -1.466c.17 -.354 .327 -.792 .483 -1.355c.272 -.976 1.657 -.976 1.928 0\" />\n  <path d=\"M10.965 6.737q .219 .801 .503 1.574c.856 2.28 1.945 3.363 4.23 4.22q .708 .265 1.571 .506c.976 .272 .974 1.656 -.002 1.927q -.798 .221 -1.568 .504c-2.288 .858 -3.376 1.94 -4.229 4.216a19 19 0 0 0 -.505 1.579c-.268 .983 -1.662 .983 -1.93 0a19 19 0 0 0 -.503 -1.574c-.856 -2.281 -1.944 -3.363 -4.226 -4.219a20 20 0 0 0 -1.594 -.513a.4 .4 0 0 1 -.054 -.018l-.044 -.017l-.043 -.02a.3 .3 0 0 1 -.048 -.024l-.036 -.02a.4 .4 0 0 1 -.048 -.03l-.032 -.024l-.044 -.034l-.033 -.029l-.037 -.034l-.034 -.037l-.03 -.033l-.033 -.044l-.023 -.032a.4 .4 0 0 1 -.03 -.048l-.021 -.036a.3 .3 0 0 1 -.024 -.048l-.02 -.043l-.017 -.044a.4 .4 0 0 1 -.018 -.054a.2 .2 0 0 1 -.01 -.039a.4 .4 0 0 1 -.014 -.059l-.007 -.04l-.007 -.056l-.003 -.044l-.002 -.05v-.05q 0 -.023 .004 -.044q .001 -.03 .007 -.057l.007 -.04a.4 .4 0 0 1 .017 -.076l.007 -.021a.4 .4 0 0 1 .018 -.054l.017 -.044l.02 -.043a.3 .3 0 0 1 .024 -.048l.02 -.036a.4 .4 0 0 1 .03 -.048l.024 -.032l.034 -.044l.029 -.033l.034 -.037l.037 -.034l.033 -.03l.044 -.033l.032 -.023a.4 .4 0 0 1 .048 -.03l.036 -.021a.3 .3 0 0 1 .048 -.024l.043 -.02l.044 -.017a.4 .4 0 0 1 .054 -.018l.021 -.007a20 20 0 0 0 1.568 -.504c2.287 -.858 3.375 -1.94 4.229 -4.216a19 19 0 0 0 .505 -1.579c.268 -.983 1.662 -.983 1.93 0\" />\n</svg>"
+    },
+    {
+        "name": "sparkles-2-off",
+        "kebab": "sparkles-2-off",
+        "enum": "Sparkles2Off",
+        "full_enum": "TablerIcon::Sparkles2Off",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-sparkles-2-off\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M14 6a9.3 9.3 0 0 0 1.516 -.546c.911 -.438 1.494 -1.015 1.937 -1.932c.207 -.428 .382 -.928 .547 -1.522c.165 .595 .34 1.095 .547 1.521c.443 .918 1.026 1.495 1.937 1.933c.426 .205 .925 .38 1.516 .546a9.3 9.3 0 0 0 -1.516 .547c-.911 .438 -1.494 1.015 -1.937 1.932a9 9 0 0 0 -.547 1.521c-.165 -.594 -.34 -1.095 -.547 -1.521c-.443 -.918 -1.026 -1.494 -1.937 -1.932a9 9 0 0 0 -1.516 -.547\" />\n  <path d=\"M14.756 14.77c-2.16 .93 -3.34 2.207 -4.224 4.568a20 20 0 0 0 -.532 1.662a20 20 0 0 0 -.532 -1.662c-.963 -2.568 -2.275 -3.853 -4.816 -4.806a21 21 0 0 0 -1.652 -.532a21 21 0 0 0 1.652 -.532c2.345 -.879 3.642 -2.04 4.585 -4.23\" />\n  <path d=\"M3 3l18 18\" />\n</svg>"
     },
     {
         "name": "sparkles-f",
@@ -46032,6 +46179,13 @@
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-sticker-2\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M6 4h12a2 2 0 0 1 2 2v7h-5a2 2 0 0 0 -2 2v5h-7a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2\" />\n  <path d=\"M20 13v.172a2 2 0 0 1 -.586 1.414l-4.828 4.828a2 2 0 0 1 -1.414 .586h-.172\" />\n</svg>"
     },
     {
+        "name": "sticker-smile",
+        "kebab": "sticker-smile",
+        "enum": "StickerSmile",
+        "full_enum": "TablerIcon::StickerSmile",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-sticker-smile\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M21 12c-.819 -.388 -2.223 -.5 -3.19 -.5a6.31 6.31 0 0 0 -6.31 6.31c0 .966 .113 2.371 .5 3.19\" />\n  <path d=\"M12 21c4 0 9 -5 9 -9a9 9 0 1 0 -9 9\" />\n  <path d=\"M9 10h.01\" />\n  <path d=\"M15 10h.01\" />\n  <path d=\"M8.75 15c.878 .672 1.746 1 3 1\" />\n</svg>"
+    },
+    {
         "name": "stopwatch",
         "kebab": "stopwatch",
         "enum": "Stopwatch",
@@ -46634,6 +46788,13 @@
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-table-spark\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M19 22.5a4.75 4.75 0 0 1 3.5 -3.5a4.75 4.75 0 0 1 -3.5 -3.5a4.75 4.75 0 0 1 -3.5 3.5a4.75 4.75 0 0 1 3.5 3.5\" />\n  <path d=\"M12 21h-7a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v7\" />\n  <path d=\"M3 10h18\" />\n  <path d=\"M10 3v18\" />\n</svg>"
     },
     {
+        "name": "tabs",
+        "kebab": "tabs",
+        "enum": "Tabs",
+        "full_enum": "TablerIcon::Tabs",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-tabs\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10\" />\n  <path d=\"M6.36 5a2 2 0 0 1 1.962 1.608l.356 1.784a2 2 0 0 0 1.962 1.608h8.36a2 2 0 0 1 2 2\" />\n  <path d=\"M12.36 5a2 2 0 0 1 1.962 1.608l.356 1.784a2 2 0 0 0 1.962 1.608\" />\n</svg>"
+    },
+    {
         "name": "tag",
         "kebab": "tag",
         "enum": "Tag",
@@ -46688,6 +46849,34 @@
         "enum": "Tags",
         "full_enum": "TablerIcon::Tags",
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-tags\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 8v4.172a2 2 0 0 0 .586 1.414l5.71 5.71a2.41 2.41 0 0 0 3.408 0l3.592 -3.592a2.41 2.41 0 0 0 0 -3.408l-5.71 -5.71a2 2 0 0 0 -1.414 -.586h-4.172a2 2 0 0 0 -2 2\" />\n  <path d=\"M18 19l1.592 -1.592a4.82 4.82 0 0 0 0 -6.816l-4.592 -4.592\" />\n  <path d=\"M7 10h-.01\" />\n</svg>"
+    },
+    {
+        "name": "tags-chevron-down",
+        "kebab": "tags-chevron-down",
+        "enum": "TagsChevronDown",
+        "full_enum": "TablerIcon::TagsChevronDown",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-tags-chevron-down\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M5 3v13.446c0 .345 .155 .665 .411 .848l6.125 4.375a.78 .78 0 0 0 .928 0l6.125 -4.375a1.04 1.04 0 0 0 .411 -.848v-13.446l-7 5l-7 -5\" />\n  <path d=\"M5 10l6.536 4.669a.78 .78 0 0 0 .928 0l6.536 -4.669\" />\n</svg>"
+    },
+    {
+        "name": "tags-chevron-left",
+        "kebab": "tags-chevron-left",
+        "enum": "TagsChevronLeft",
+        "full_enum": "TablerIcon::TagsChevronLeft",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-tags-chevron-left\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M20.59 19h-12.86a.98 .98 0 0 1 -.81 -.411l-4.185 -6.125a.81 .81 0 0 1 0 -.928l4.184 -6.125a.98 .98 0 0 1 .811 -.411h12.86l-4.782 7l4.782 7\" />\n  <path d=\"M13.895 19l-4.465 -6.536a.81 .81 0 0 1 0 -.928l4.465 -6.536\" />\n</svg>"
+    },
+    {
+        "name": "tags-chevron-right",
+        "kebab": "tags-chevron-right",
+        "enum": "TagsChevronRight",
+        "full_enum": "TablerIcon::TagsChevronRight",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-tags-chevron-right\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 19h13.485a1 1 0 0 0 .814 -.419l4.286 -6a1 1 0 0 0 0 -1.162l-4.286 -6a1 1 0 0 0 -.814 -.419h-13.485l5 7l-5 7\" />\n  <path d=\"M10 19l4.585 -6.419a1 1 0 0 0 0 -1.162l-4.585 -6.419\" />\n</svg>"
+    },
+    {
+        "name": "tags-chevron-up",
+        "kebab": "tags-chevron-up",
+        "enum": "TagsChevronUp",
+        "full_enum": "TablerIcon::TagsChevronUp",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-tags-chevron-up\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M5 21v-13.446c0 -.345 .155 -.665 .411 -.848l6.125 -4.375a.78 .78 0 0 1 .928 0l6.125 4.375c.256 .183 .411 .503 .411 .848v13.446l-7 -5l-7 5\" />\n  <path d=\"M5 14l6.536 -4.669a.78 .78 0 0 1 .928 0l6.536 4.669\" />\n</svg>"
     },
     {
         "name": "tags-f",
@@ -47199,6 +47388,27 @@
         "enum": "Thermometer",
         "full_enum": "TablerIcon::Thermometer",
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-thermometer\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M19 5a2.828 2.828 0 0 1 0 4l-8 8h-4v-4l8 -8a2.828 2.828 0 0 1 4 0\" />\n  <path d=\"M16 7l-1.5 -1.5\" />\n  <path d=\"M13 10l-1.5 -1.5\" />\n  <path d=\"M10 13l-1.5 -1.5\" />\n  <path d=\"M7 17l-3 3\" />\n</svg>"
+    },
+    {
+        "name": "thinking-high",
+        "kebab": "thinking-high",
+        "enum": "ThinkingHigh",
+        "full_enum": "TablerIcon::ThinkingHigh",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-thinking-high\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M17 21v-1.25c0 -2.311 .778 -1.92 2.244 -3.749a8 8 0 1 0 -14.244 -5.001q 0 .25 -1.876 3.518a1 1 0 0 0 .876 1.482h2v3a2 2 0 0 0 2 2h3\" />\n  <path d=\"M9 11a4 4 0 1 0 8 0a4 4 0 1 0 -8 0\" />\n</svg>"
+    },
+    {
+        "name": "thinking-low",
+        "kebab": "thinking-low",
+        "enum": "ThinkingLow",
+        "full_enum": "TablerIcon::ThinkingLow",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-thinking-low\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M17 21v-1.25c0 -2.311 .778 -1.92 2.244 -3.749a8 8 0 1 0 -14.244 -5.001q 0 .25 -1.876 3.518a1 1 0 0 0 .876 1.482h2v3a2 2 0 0 0 2 2h3\" />\n  <path d=\"M12 11a1 1 0 1 0 2 0a1 1 0 1 0 -2 0\" />\n</svg>"
+    },
+    {
+        "name": "thinking-medium",
+        "kebab": "thinking-medium",
+        "enum": "ThinkingMedium",
+        "full_enum": "TablerIcon::ThinkingMedium",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-thinking-medium\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M17 21v-1.25c0 -2.311 .778 -1.92 2.244 -3.749a8 8 0 1 0 -14.244 -5.001q 0 .25 -1.876 3.518a1 1 0 0 0 .876 1.482h2v3a2 2 0 0 0 2 2h3\" />\n  <path d=\"M11 11a2 2 0 1 0 4 0a2 2 0 1 0 -4 0\" />\n</svg>"
     },
     {
         "name": "thumb-down",
@@ -47940,28 +48150,28 @@
         "kebab": "transform-point-bottom-left",
         "enum": "TransformPointBottomLeft",
         "full_enum": "TablerIcon::TransformPointBottomLeft",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-transform-point-bottom-left\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 4a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" />\n  <path d=\"M3 18a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" fill=\"currentColor\"  />\n  <path d=\"M17 4a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" />\n  <path d=\"M17 18a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" />\n  <path d=\"M11 5h2\" />\n  <path d=\"M5 11v2\" />\n  <path d=\"M19 11v2\" />\n  <path d=\"M11 19h2\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-transform-point-bottom-left\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 4a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" />\n  <path d=\"M3 18a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" fill=\"currentColor\" />\n  <path d=\"M17 4a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" />\n  <path d=\"M17 18a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" />\n  <path d=\"M11 5h2\" />\n  <path d=\"M5 11v2\" />\n  <path d=\"M19 11v2\" />\n  <path d=\"M11 19h2\" />\n</svg>"
     },
     {
         "name": "transform-point-bottom-right",
         "kebab": "transform-point-bottom-right",
         "enum": "TransformPointBottomRight",
         "full_enum": "TablerIcon::TransformPointBottomRight",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-transform-point-bottom-right\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 4a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" />\n  <path d=\"M3 18a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" />\n  <path d=\"M17 4a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" />\n  <path d=\"M17 18a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" fill=\"currentColor\"  />\n  <path d=\"M11 5h2\" />\n  <path d=\"M5 11v2\" />\n  <path d=\"M19 11v2\" />\n  <path d=\"M11 19h2\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-transform-point-bottom-right\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 4a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" />\n  <path d=\"M3 18a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" />\n  <path d=\"M17 4a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" />\n  <path d=\"M17 18a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" fill=\"currentColor\" />\n  <path d=\"M11 5h2\" />\n  <path d=\"M5 11v2\" />\n  <path d=\"M19 11v2\" />\n  <path d=\"M11 19h2\" />\n</svg>"
     },
     {
         "name": "transform-point-top-left",
         "kebab": "transform-point-top-left",
         "enum": "TransformPointTopLeft",
         "full_enum": "TablerIcon::TransformPointTopLeft",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-transform-point-top-left\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 4a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" fill=\"currentColor\"  />\n  <path d=\"M3 18a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" />\n  <path d=\"M17 4a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" />\n  <path d=\"M17 18a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" />\n  <path d=\"M11 5h2\" />\n  <path d=\"M5 11v2\" />\n  <path d=\"M19 11v2\" />\n  <path d=\"M11 19h2\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-transform-point-top-left\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 4a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" fill=\"currentColor\" />\n  <path d=\"M3 18a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" />\n  <path d=\"M17 4a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" />\n  <path d=\"M17 18a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" />\n  <path d=\"M11 5h2\" />\n  <path d=\"M5 11v2\" />\n  <path d=\"M19 11v2\" />\n  <path d=\"M11 19h2\" />\n</svg>"
     },
     {
         "name": "transform-point-top-right",
         "kebab": "transform-point-top-right",
         "enum": "TransformPointTopRight",
         "full_enum": "TablerIcon::TransformPointTopRight",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-transform-point-top-right\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 4a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" />\n  <path d=\"M3 18a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" />\n  <path d=\"M17 4a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" fill=\"currentColor\"  />\n  <path d=\"M17 18a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" />\n  <path d=\"M11 5h2\" />\n  <path d=\"M5 11v2\" />\n  <path d=\"M19 11v2\" />\n  <path d=\"M11 19h2\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-transform-point-top-right\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 4a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" />\n  <path d=\"M3 18a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" />\n  <path d=\"M17 4a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" fill=\"currentColor\" />\n  <path d=\"M17 18a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2\" />\n  <path d=\"M11 5h2\" />\n  <path d=\"M5 11v2\" />\n  <path d=\"M19 11v2\" />\n  <path d=\"M11 19h2\" />\n</svg>"
     },
     {
         "name": "transition-bottom",
@@ -48102,6 +48312,13 @@
         "enum": "Treadmill",
         "full_enum": "TablerIcon::Treadmill",
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-treadmill\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M10 3a1 1 0 1 0 2 0a1 1 0 0 0 -2 0\" />\n  <path d=\"M3 14l4 1l.5 -.5\" />\n  <path d=\"M12 18v-3l-3 -2.923l.75 -5.077\" />\n  <path d=\"M6 10v-2l4 -1l2.5 2.5l2.5 .5\" />\n  <path d=\"M21 22a1 1 0 0 0 -1 -1h-16a1 1 0 0 0 -1 1\" />\n  <path d=\"M18 21l1 -11l2 -1\" />\n</svg>"
+    },
+    {
+        "name": "treasure-chest",
+        "kebab": "treasure-chest",
+        "enum": "TreasureChest",
+        "full_enum": "TablerIcon::TreasureChest",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-treasure-chest\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M4 19h16a1 1 0 0 0 1 -1v-9a4 4 0 0 0 -4 -4h-10a4 4 0 0 0 -4 4v9a1 1 0 0 0 1 1\" />\n  <path d=\"M3 11h18\" />\n  <path d=\"M16 5v14\" />\n  <path d=\"M8 5v14\" />\n  <path d=\"M12 11v2\" />\n</svg>"
     },
     {
         "name": "tree",
@@ -48389,6 +48606,13 @@
         "enum": "TruckReturn",
         "full_enum": "TablerIcon::TruckReturn",
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-truck-return\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M5 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0\" />\n  <path d=\"M15 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0\" />\n  <path d=\"M5 17h-2v-11a1 1 0 0 1 1 -1h9v6h-5l2 2m0 -4l-2 2\" />\n  <path d=\"M9 17l6 0\" />\n  <path d=\"M13 6h5l3 5v6h-2\" />\n</svg>"
+    },
+    {
+        "name": "twig",
+        "kebab": "twig",
+        "enum": "Twig",
+        "full_enum": "TablerIcon::Twig",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-twig\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 21l5 -4l3 -5l5 -2l5 -7\" />\n  <path d=\"M16 10h5\" />\n  <path d=\"M11 12v-8\" />\n  <path d=\"M8 17h7\" />\n</svg>"
     },
     {
         "name": "txt",
@@ -48916,6 +49140,13 @@
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-variable-plus\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M5 4c-2.5 5 -2.5 10 0 16m14 -16c1.38 2.76 2 5.52 1.855 8.448m-11.855 -3.448h1c1 0 1 1 2.016 3.527c.785 1.972 .944 3.008 1.483 3.346\" />\n  <path d=\"M8 16c1.5 0 3 -2 4 -3.5s2.5 -3.5 4 -3.5\" />\n  <path d=\"M16 19h6\" />\n  <path d=\"M19 16v6\" />\n</svg>"
     },
     {
+        "name": "vault",
+        "kebab": "vault",
+        "enum": "Vault",
+        "full_enum": "TablerIcon::Vault",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-vault\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 6a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-12\" />\n  <path d=\"M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0\" />\n  <path d=\"M9.75 9.75l-1.75 -1.75\" />\n  <path d=\"M14.25 9.75l1.75 -1.75\" />\n  <path d=\"M14.25 14.25l1.75 1.75\" />\n  <path d=\"M9.75 14.25l-1.75 1.75\" />\n</svg>"
+    },
+    {
         "name": "vector",
         "kebab": "vector",
         "enum": "Vector",
@@ -49229,6 +49460,20 @@
         "enum": "VocabularyOff",
         "full_enum": "TablerIcon::VocabularyOff",
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-vocabulary-off\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M7 3h3a2 2 0 0 1 2 2a2 2 0 0 1 2 -2h6a1 1 0 0 1 1 1v13m-2 2h-5a2 2 0 0 0 -2 2a2 2 0 0 0 -2 -2h-6a1 1 0 0 1 -1 -1v-14c0 -.279 .114 -.53 .298 -.712\" />\n  <path d=\"M12 5v3m0 4v9\" />\n  <path d=\"M7 11h1\" />\n  <path d=\"M16 7h1\" />\n  <path d=\"M16 11h1\" />\n  <path d=\"M3 3l18 18\" />\n</svg>"
+    },
+    {
+        "name": "voice",
+        "kebab": "voice",
+        "enum": "Voice",
+        "full_enum": "TablerIcon::Voice",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-voice\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0\" />\n  <path d=\"M3 12c4 0 9.647 8.23 14.4 7.092\" />\n  <path d=\"M4.8 17.4c5.85 0 9.617 -7.2 15.3 -7.2\" />\n</svg>"
+    },
+    {
+        "name": "voice-2",
+        "kebab": "voice-2",
+        "enum": "Voice2",
+        "full_enum": "TablerIcon::Voice2",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-voice-2\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0\" />\n  <path d=\"M3.429 14.571c9 -15.857 10.134 8.908 17.143 0\" />\n  <path d=\"M4.03 16.286c5.469 -3.939 8.68 3.635 13.541 2.79\" />\n</svg>"
     },
     {
         "name": "volcano",
@@ -50230,6 +50475,13 @@
         "enum": "Xxx",
         "full_enum": "TablerIcon::Xxx",
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-xxx\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M10 8l4 8\" />\n  <path d=\"M10 16l4 -8\" />\n  <path d=\"M17 8l4 8\" />\n  <path d=\"M17 16l4 -8\" />\n  <path d=\"M3 8l4 8\" />\n  <path d=\"M3 16l4 -8\" />\n</svg>"
+    },
+    {
+        "name": "yarn",
+        "kebab": "yarn",
+        "enum": "Yarn",
+        "full_enum": "TablerIcon::Yarn",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-yarn\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M7.5 19.794a9 9 0 1 0 9 -15.588a9 9 0 0 0 -9 15.588\" />\n  <path d=\"M20.997 12a9 9 0 0 0 -8.997 9\" />\n  <path d=\"M9.662 12.778a9 9 0 0 0 -6.643 -.27\" />\n  <path d=\"M19.527 7.078a14 14 0 0 0 -12.45 12.458\" />\n  <path d=\"M13.503 9.18a14 14 0 0 0 -9.033 -2.097\" />\n</svg>"
     },
     {
         "name": "yin-yang",
