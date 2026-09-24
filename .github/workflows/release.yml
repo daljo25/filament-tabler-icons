@@ -48,6 +48,7 @@ jobs:
         if: steps.gate.outputs.run == 'true'
         id: tagcheck
         run: |
+          git fetch origin --tags
           if git rev-parse "v${{ steps.version.outputs.version }}" >/dev/null 2>&1; then
             echo "exists=true" >> $GITHUB_OUTPUT
           else

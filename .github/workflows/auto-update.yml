@@ -2,7 +2,7 @@ name: Auto Update Tabler Icons
 
 on:
   schedule:
-    - cron: "0 13 * * 1"
+    - cron: "0 12 * * 1"
   workflow_dispatch:
 
 permissions:
@@ -31,6 +31,18 @@ jobs:
           php-version: 8.3
           tools: composer
 
+      # Sincronizar con remoto ANTES de generar cambios.
+      # (Antes estaba después de regenerar el enum y el
+      #  `git reset --hard` borraba los cambios recién generados,
+      #  por lo que nunca se detectaba nada que commitear.)
+      - name: Sync with remote
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git fetch origin main
+          git reset --hard origin/main
+
       - name: Install dependencies
         run: composer install --no-interaction --no-progress
 
@@ -45,15 +57,6 @@ jobs:
 
       - name: Regenerate enums
         run: php update-tabler-enum.php
-
-      # 🔥 FIX CRÍTICO: sincronizar repo ANTES de commit
-      - name: Sync with remote
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git fetch origin main
-          git reset --hard origin/main
 
       - name: Check for changes
         id: changes
