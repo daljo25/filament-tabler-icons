@@ -2,7 +2,10 @@ name: Auto Update Tabler Icons
 
 on:
   schedule:
-    - cron: "0 12 * * 1"
+    # Diario 06:00 UTC: el paquete padre puede publicar cualquier día
+    # (v3.48.0 salió un martes y el cron semanal de los lunes lo missed
+    #  por hasta 6 días). Con frecuencia diaria el lag máximo es ~24h.
+    - cron: "0 6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -52,8 +55,26 @@ jobs:
       - name: Get installed Tabler version
         id: tabler
         run: |
-          VERSION=$(composer show secondnetwork/blade-tabler-icons | grep 'versions' | awk '{print $3}' | sed 's/v//g' | sed 's/,//g')
+          # --format=json + jq es robusto frente a cambios de formato/locale
+          # del output texto de `composer show` (el grep 'versions' | awk
+          # anterior devolvía vacío si el formato cambiaba y el commit
+          # salía como "v" sin número, rompiendo el gate del release.yml).
+          VERSION=$(composer show secondnetwork/blade-tabler-icons --format=json | jq -r '.versions[0] | ltrimstr("v")')
+          if [ -z "$VERSION" ] || [ "$VERSION" = "null" ]; then
+            echo "Could not determine installed version"
+            exit 1
+          fi
+          echo "Installed: $VERSION"
           echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Get latest upstream version
+        id: upstream
+        run: |
+          # Referencia independiente de Packagist para log/diagnóstico:
+          # si composer no trae lo último (caché, constraint ^x.y), aquí se ve.
+          LATEST=$(curl -s https://repo.packagist.org/p2/secondnetwork/blade-tabler-icons.json | jq -r '.packages["secondnetwork/blade-tabler-icons"][0].version | ltrimstr("v")')
+          echo "Upstream latest: $LATEST"
+          echo "version=$LATEST" >> $GITHUB_OUTPUT
 
       - name: Regenerate enums
         run: php update-tabler-enum.php
