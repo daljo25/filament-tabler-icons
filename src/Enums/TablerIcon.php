@@ -3061,6 +3061,7 @@ enum TablerIcon: string implements ScalableIcon
     case Dumpling = 'dumpling';
     case DumplingF = 'dumpling-f';
     case DumplingFilled = 'dumpling-filled';
+    case Duplicate = 'duplicate';
     case EPassport = 'e-passport';
     case Ear = 'ear';
     case EarOff = 'ear-off';
@@ -3532,6 +3533,7 @@ enum TablerIcon: string implements ScalableIcon
     case FoldDown = 'fold-down';
     case FoldUp = 'fold-up';
     case Folder = 'folder';
+    case FolderAi = 'folder-ai';
     case FolderBolt = 'folder-bolt';
     case FolderCancel = 'folder-cancel';
     case FolderCheck = 'folder-check';
@@ -3555,6 +3557,7 @@ enum TablerIcon: string implements ScalableIcon
     case FolderRoot = 'folder-root';
     case FolderSearch = 'folder-search';
     case FolderShare = 'folder-share';
+    case FolderSparkle = 'folder-sparkle';
     case FolderStar = 'folder-star';
     case FolderStats = 'folder-stats';
     case FolderSymlink = 'folder-symlink';
@@ -3649,16 +3652,21 @@ enum TablerIcon: string implements ScalableIcon
     case GiftFilled = 'gift-filled';
     case GiftOff = 'gift-off';
     case GitBranch = 'git-branch';
+    case GitBranchCheck = 'git-branch-check';
     case GitBranchDeleted = 'git-branch-deleted';
+    case GitBranchX = 'git-branch-x';
     case GitCherryPick = 'git-cherry-pick';
     case GitCommit = 'git-commit';
     case GitCompare = 'git-compare';
     case GitFork = 'git-fork';
     case GitMerge = 'git-merge';
+    case GitMergeQueue = 'git-merge-queue';
     case GitPullRequest = 'git-pull-request';
     case GitPullRequestClosed = 'git-pull-request-closed';
     case GitPullRequestConflict = 'git-pull-request-conflict';
     case GitPullRequestDraft = 'git-pull-request-draft';
+    case GitPullRequestLocked = 'git-pull-request-locked';
+    case GitPullRequestUnlisted = 'git-pull-request-unlisted';
     case Gizmo = 'gizmo';
     case Glass = 'glass';
     case GlassChampagne = 'glass-champagne';
@@ -4712,6 +4720,7 @@ enum TablerIcon: string implements ScalableIcon
     case Mesh = 'mesh';
     case Message = 'message';
     case Message2 = 'message-2';
+    case Message2Ai = 'message-2-ai';
     case Message2Bolt = 'message-2-bolt';
     case Message2Cancel = 'message-2-cancel';
     case Message2Check = 'message-2-check';
@@ -4731,9 +4740,11 @@ enum TablerIcon: string implements ScalableIcon
     case Message2Question = 'message-2-question';
     case Message2Search = 'message-2-search';
     case Message2Share = 'message-2-share';
+    case Message2Sparkle = 'message-2-sparkle';
     case Message2Star = 'message-2-star';
     case Message2Up = 'message-2-up';
     case Message2X = 'message-2-x';
+    case MessageAi = 'message-ai';
     case MessageBolt = 'message-bolt';
     case MessageCancel = 'message-cancel';
     case MessageChatbot = 'message-chatbot';
@@ -4790,6 +4801,7 @@ enum TablerIcon: string implements ScalableIcon
     case MessageReportFilled = 'message-report-filled';
     case MessageSearch = 'message-search';
     case MessageShare = 'message-share';
+    case MessageSparkle = 'message-sparkle';
     case MessageStar = 'message-star';
     case MessageUp = 'message-up';
     case MessageUser = 'message-user';
@@ -4845,6 +4857,7 @@ enum TablerIcon: string implements ScalableIcon
     case MistOff = 'mist-off';
     case Mobiledata = 'mobiledata';
     case MobiledataOff = 'mobiledata-off';
+    case ModelAi = 'model-ai';
     case Moneybag = 'moneybag';
     case MoneybagEdit = 'moneybag-edit';
     case MoneybagHeart = 'moneybag-heart';
@@ -5243,6 +5256,7 @@ enum TablerIcon: string implements ScalableIcon
     case Pdf = 'pdf';
     case Peace = 'peace';
     case Pencil = 'pencil';
+    case PencilAi = 'pencil-ai';
     case PencilBolt = 'pencil-bolt';
     case PencilCancel = 'pencil-cancel';
     case PencilCheck = 'pencil-check';
@@ -6570,13 +6584,17 @@ enum TablerIcon: string implements ScalableIcon
     case Stack3Filled = 'stack-3-filled';
     case StackBack = 'stack-back';
     case StackBackward = 'stack-backward';
+    case StackCheck = 'stack-check';
     case StackF = 'stack-f';
     case StackFilled = 'stack-filled';
     case StackForward = 'stack-forward';
     case StackFront = 'stack-front';
     case StackMiddle = 'stack-middle';
+    case StackMinus = 'stack-minus';
+    case StackPlus = 'stack-plus';
     case StackPop = 'stack-pop';
     case StackPush = 'stack-push';
+    case StackX = 'stack-x';
     case Stairs = 'stairs';
     case StairsDown = 'stairs-down';
     case StairsUp = 'stairs-up';
