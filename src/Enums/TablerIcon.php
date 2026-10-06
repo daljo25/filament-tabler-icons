@@ -177,9 +177,14 @@ enum TablerIcon: string implements ScalableIcon
     case Alpha = 'alpha';
     case AlphabetArabic = 'alphabet-arabic';
     case AlphabetBangla = 'alphabet-bangla';
+    case AlphabetChinese = 'alphabet-chinese';
     case AlphabetCyrillic = 'alphabet-cyrillic';
+    case AlphabetDevanagari = 'alphabet-devanagari';
+    case AlphabetEthiopic = 'alphabet-ethiopic';
+    case AlphabetGeorgian = 'alphabet-georgian';
     case AlphabetGreek = 'alphabet-greek';
     case AlphabetHebrew = 'alphabet-hebrew';
+    case AlphabetJapanese = 'alphabet-japanese';
     case AlphabetKorean = 'alphabet-korean';
     case AlphabetLatin = 'alphabet-latin';
     case AlphabetPolish = 'alphabet-polish';
@@ -806,6 +811,7 @@ enum TablerIcon: string implements ScalableIcon
     case BlenderFilled = 'blender-filled';
     case Blind = 'blind';
     case Blob = 'blob';
+    case BlobDashed = 'blob-dashed';
     case BlobF = 'blob-f';
     case BlobFilled = 'blob-filled';
     case Blockquote = 'blockquote';
@@ -2021,6 +2027,7 @@ enum TablerIcon: string implements ScalableIcon
     case CircleHalf = 'circle-half';
     case CircleHalf2 = 'circle-half-2';
     case CircleHalfVertical = 'circle-half-vertical';
+    case CircleHeart = 'circle-heart';
     case CircleKey = 'circle-key';
     case CircleKeyF = 'circle-key-f';
     case CircleKeyFilled = 'circle-key-filled';
@@ -2139,9 +2146,11 @@ enum TablerIcon: string implements ScalableIcon
     case CircleOpenArrowLeft = 'circle-open-arrow-left';
     case CircleOpenArrowRight = 'circle-open-arrow-right';
     case CircleOpenArrowUp = 'circle-open-arrow-up';
+    case CirclePause = 'circle-pause';
     case CirclePercentage = 'circle-percentage';
     case CirclePercentageF = 'circle-percentage-f';
     case CirclePercentageFilled = 'circle-percentage-filled';
+    case CirclePlay = 'circle-play';
     case CirclePlus = 'circle-plus';
     case CirclePlus2 = 'circle-plus-2';
     case CirclePlusF = 'circle-plus-f';
@@ -2152,6 +2161,7 @@ enum TablerIcon: string implements ScalableIcon
     case CircleRectangleFilled = 'circle-rectangle-filled';
     case CircleRectangleOff = 'circle-rectangle-off';
     case CircleSquare = 'circle-square';
+    case CircleStop = 'circle-stop';
     case CircleTriangle = 'circle-triangle';
     case CircleX = 'circle-x';
     case CircleXF = 'circle-x-f';
@@ -3291,6 +3301,7 @@ enum TablerIcon: string implements ScalableIcon
     case FileLambdaF = 'file-lambda-f';
     case FileLambdaFilled = 'file-lambda-filled';
     case FileLike = 'file-like';
+    case FileLock = 'file-lock';
     case FileMinus = 'file-minus';
     case FileMinusF = 'file-minus-f';
     case FileMinusFilled = 'file-minus-filled';
@@ -3545,6 +3556,7 @@ enum TablerIcon: string implements ScalableIcon
     case FolderF = 'folder-f';
     case FolderFilled = 'folder-filled';
     case FolderHeart = 'folder-heart';
+    case FolderLock = 'folder-lock';
     case FolderMinus = 'folder-minus';
     case FolderOff = 'folder-off';
     case FolderOpen = 'folder-open';
@@ -4347,6 +4359,8 @@ enum TablerIcon: string implements ScalableIcon
     case Lemon2 = 'lemon-2';
     case Lemon2F = 'lemon-2-f';
     case Lemon2Filled = 'lemon-2-filled';
+    case LensConcave = 'lens-concave';
+    case LensConvex = 'lens-convex';
     case LetterA = 'letter-a';
     case LetterASmall = 'letter-a-small';
     case LetterB = 'letter-b';
@@ -4708,6 +4722,7 @@ enum TablerIcon: string implements ScalableIcon
     case Melon = 'melon';
     case MelonF = 'melon-f';
     case MelonFilled = 'melon-filled';
+    case Memory = 'memory';
     case Menorah = 'menorah';
     case Menu = 'menu';
     case Menu2 = 'menu-2';
@@ -6239,6 +6254,8 @@ enum TablerIcon: string implements ScalableIcon
     case SquareChevronsUpF = 'square-chevrons-up-f';
     case SquareChevronsUpFilled = 'square-chevrons-up-filled';
     case SquareDashed = 'square-dashed';
+    case SquareDashedTopSolid = 'square-dashed-top-solid';
+    case SquareDashedX = 'square-dashed-x';
     case SquareDot = 'square-dot';
     case SquareDotF = 'square-dot-f';
     case SquareDotFilled = 'square-dot-filled';
@@ -6939,6 +6956,7 @@ enum TablerIcon: string implements ScalableIcon
     case TrendingUp3 = 'trending-up-3';
     case TrendingUpDown = 'trending-up-down';
     case Triangle = 'triangle';
+    case TriangleDashed = 'triangle-dashed';
     case TriangleF = 'triangle-f';
     case TriangleFilled = 'triangle-filled';
     case TriangleInverted = 'triangle-inverted';
