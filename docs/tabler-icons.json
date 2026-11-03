@@ -690,21 +690,21 @@
         "kebab": "alert-octagon",
         "enum": "AlertOctagon",
         "full_enum": "TablerIcon::AlertOctagon",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-alert-octagon\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M12.802 2.165l5.575 2.389c.48 .206 .863 .589 1.07 1.07l2.388 5.574c.22 .512 .22 1.092 0 1.604l-2.389 5.575c-.206 .48 -.589 .863 -1.07 1.07l-5.574 2.388c-.512 .22 -1.092 .22 -1.604 0l-5.575 -2.389a2.036 2.036 0 0 1 -1.07 -1.07l-2.388 -5.574a2.036 2.036 0 0 1 0 -1.604l2.389 -5.575c.206 -.48 .589 -.863 1.07 -1.07l5.574 -2.388a2.036 2.036 0 0 1 1.604 0\" />\n  <path d=\"M12 8v4\" />\n  <path d=\"M12 16h.01\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-alert-octagon\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 9.101v5.798c0 .53 .211 1.039 .586 1.415l4.1 4.1c.375 .375 .884 .586 1.415 .586h5.799c.53 0 1.039 -.211 1.414 -.586l4.1 -4.1c.375 -.375 .586 -.884 .586 -1.415v-5.798c0 -.53 -.211 -1.039 -.586 -1.415l-4.1 -4.1c-.375 -.375 -.884 -.586 -1.414 -.586l-5.799 0c-.53 0 -1.039 .211 -1.415 .586l-4.1 4.1c-.375 .375 -.586 .884 -.586 1.415\" />\n  <path d=\"M12 8v4\" />\n  <path d=\"M12 16h.01\" />\n</svg>"
     },
     {
         "name": "alert-octagon-f",
         "kebab": "alert-octagon-f",
         "enum": "AlertOctagonF",
         "full_enum": "TablerIcon::AlertOctagonF",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"currentColor\"\n  class=\"icon icon-tabler icons-tabler-filled icon-tabler-alert-octagon\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M14.897 1a4 4 0 0 1 2.664 1.016l.165 .156l4.1 4.1a4 4 0 0 1 1.168 2.605l.006 .227v5.794a4 4 0 0 1 -1.016 2.664l-.156 .165l-4.1 4.1a4 4 0 0 1 -2.603 1.168l-.227 .006h-5.795a3.999 3.999 0 0 1 -2.664 -1.017l-.165 -.156l-4.1 -4.1a4 4 0 0 1 -1.168 -2.604l-.006 -.227v-5.794a4 4 0 0 1 1.016 -2.664l.156 -.165l4.1 -4.1a4 4 0 0 1 2.605 -1.168l.227 -.006h5.793zm-2.887 14l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007zm-.01 -8a1 1 0 0 0 -.993 .883l-.007 .117v4l.007 .117a1 1 0 0 0 1.986 0l.007 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883z\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"currentColor\"\n  class=\"icon icon-tabler icons-tabler-filled icon-tabler-alert-octagon\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M14.899 2c.796 0 1.558 .316 2.121 .879l4.101 4.1c.563 .563 .879 1.325 .879 2.122v5.798c0 .796 -.316 1.558 -.879 2.121l-4.101 4.101c-.563 .563 -1.325 .879 -2.121 .879h-5.798c-.796 0 -1.558 -.316 -2.122 -.879l-4.1 -4.101c-.563 -.563 -.879 -1.325 -.879 -2.121v-5.798c0 -.796 .316 -1.558 .879 -2.122l4.1 -4.1c.563 -.563 1.325 -.879 2.122 -.879h5.798zm-2.899 13c-.552 0 -1 .448 -1 1c0 .552 .448 1 1 1h.01c.552 0 1 -.448 1 -1c0 -.552 -.448 -1 -1 -1h-.01zm0 -8c-.552 0 -1 .448 -1 1v4c0 .552 .448 1 1 1c.552 0 1 -.448 1 -1v-4c0 -.552 -.448 -1 -1 -1z\" />\n</svg>"
     },
     {
         "name": "alert-octagon-filled",
         "kebab": "alert-octagon-filled",
         "enum": "AlertOctagonFilled",
         "full_enum": "TablerIcon::AlertOctagonFilled",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"currentColor\"\n  class=\"icon icon-tabler icons-tabler-filled icon-tabler-alert-octagon\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M14.897 1a4 4 0 0 1 2.664 1.016l.165 .156l4.1 4.1a4 4 0 0 1 1.168 2.605l.006 .227v5.794a4 4 0 0 1 -1.016 2.664l-.156 .165l-4.1 4.1a4 4 0 0 1 -2.603 1.168l-.227 .006h-5.795a3.999 3.999 0 0 1 -2.664 -1.017l-.165 -.156l-4.1 -4.1a4 4 0 0 1 -1.168 -2.604l-.006 -.227v-5.794a4 4 0 0 1 1.016 -2.664l.156 -.165l4.1 -4.1a4 4 0 0 1 2.605 -1.168l.227 -.006h5.793zm-2.887 14l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007zm-.01 -8a1 1 0 0 0 -.993 .883l-.007 .117v4l.007 .117a1 1 0 0 0 1.986 0l.007 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883z\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"currentColor\"\n  class=\"icon icon-tabler icons-tabler-filled icon-tabler-alert-octagon\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M14.899 2c.796 0 1.558 .316 2.121 .879l4.101 4.1c.563 .563 .879 1.325 .879 2.122v5.798c0 .796 -.316 1.558 -.879 2.121l-4.101 4.101c-.563 .563 -1.325 .879 -2.121 .879h-5.798c-.796 0 -1.558 -.316 -2.122 -.879l-4.1 -4.101c-.563 -.563 -.879 -1.325 -.879 -2.121v-5.798c0 -.796 .316 -1.558 .879 -2.122l4.1 -4.1c.563 -.563 1.325 -.879 2.122 -.879h5.798zm-2.899 13c-.552 0 -1 .448 -1 1c0 .552 .448 1 1 1h.01c.552 0 1 -.448 1 -1c0 -.552 -.448 -1 -1 -1h-.01zm0 -8c-.552 0 -1 .448 -1 1v4c0 .552 .448 1 1 1c.552 0 1 -.448 1 -1v-4c0 -.552 -.448 -1 -1 -1z\" />\n</svg>"
     },
     {
         "name": "alert-small",
@@ -1594,6 +1594,13 @@
         "enum": "ArchiveOff",
         "full_enum": "TablerIcon::ArchiveOff",
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-archive-off\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M8 4h11a2 2 0 1 1 0 4h-7m-4 0h-3a2 2 0 0 1 -.826 -3.822\" />\n  <path d=\"M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 1.824 -1.18m.176 -3.82v-7\" />\n  <path d=\"M10 12h2\" />\n  <path d=\"M3 3l18 18\" />\n</svg>"
+    },
+    {
+        "name": "archive-restore",
+        "kebab": "archive-restore",
+        "enum": "ArchiveRestore",
+        "full_enum": "TablerIcon::ArchiveRestore",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-archive-restore\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 6a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2\" />\n  <path d=\"M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10\" />\n  <path d=\"M12 16v-4\" />\n  <path d=\"M10 14l2 -2l2 2\" />\n</svg>"
     },
     {
         "name": "armchair",
@@ -5033,6 +5040,13 @@
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-beach\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M17.553 16.75a7.5 7.5 0 0 0 -10.606 0\" />\n  <path d=\"M18 3.804a6 6 0 0 0 -8.196 2.196l10.392 6a6 6 0 0 0 -2.196 -8.196\" />\n  <path d=\"M16.732 10c1.658 -2.87 2.225 -5.644 1.268 -6.196c-.957 -.552 -3.075 1.326 -4.732 4.196\" />\n  <path d=\"M15 9l-3 5.196\" />\n  <path d=\"M3 19.25a2.4 2.4 0 0 1 1 -.25a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 1 .25\" />\n</svg>"
     },
     {
+        "name": "beach-bag",
+        "kebab": "beach-bag",
+        "enum": "BeachBag",
+        "full_enum": "TablerIcon::BeachBag",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-beach-bag\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3.5 12h17\" />\n  <path d=\"M20 16h-16\" />\n  <path d=\"M5 8a2 2 0 0 0 -1.973 2.329l1.473 8.835a1 1 0 0 0 .986 .836h13.027a1 1 0 0 0 .987 -.836l1.472 -8.835a2 2 0 0 0 -1.644 -2.302q -.108 -.017 -14.328 -.027\" />\n  <path d=\"M6 8v-2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v2\" />\n</svg>"
+    },
+    {
         "name": "beach-off",
         "kebab": "beach-off",
         "enum": "BeachOff",
@@ -5850,6 +5864,13 @@
         "enum": "Book2",
         "full_enum": "TablerIcon::Book2",
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-book-2\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M19 4v16h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12\" />\n  <path d=\"M19 16h-12a2 2 0 0 0 -2 2\" />\n  <path d=\"M9 8h6\" />\n</svg>"
+    },
+    {
+        "name": "book-clone",
+        "kebab": "book-clone",
+        "enum": "BookClone",
+        "full_enum": "TablerIcon::BookClone",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-book-clone\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M9 19h-4a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12v4\" />\n  <path d=\"M9 15h-4a2 2 0 0 0 -2 2\" />\n  <path d=\"M7 7h6\" />\n  <path d=\"M21 11v10h-6a2 2 0 1 1 0 -4h6\" />\n  <path d=\"M13 19v-6a2 2 0 0 1 2 -2h6\" />\n</svg>"
     },
     {
         "name": "book-download",
@@ -8323,6 +8344,13 @@
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-brand-miniprogram\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M21 12a9 9 0 1 1 -18 0a9 9 0 0 1 18 0\" />\n  <path d=\"M8 11.503a2.5 2.5 0 1 0 4 2v-3a2.5 2.5 0 1 1 4 2\" />\n</svg>"
     },
     {
+        "name": "brand-misskey",
+        "kebab": "brand-misskey",
+        "enum": "BrandMisskey",
+        "full_enum": "TablerIcon::BrandMisskey",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-brand-misskey\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 7.212c0 -1.27 1.6 -1.54 2.2 -.82l3.8 3.35l3.8 -3.35c.6 -.72 2.2 -.45 2.2 .82v9.288a1.5 1.5 0 0 1 -3 0v-5.258l-.95 .95a2.9 2.9 0 0 1 -4.1 0l-.95 -.95v5.258a1.5 1.5 0 0 1 -3 0v-9.288\" />\n  <path d=\"M19.5 9a1.5 1.5 0 1 0 0 -3a1.5 1.5 0 0 0 0 3\" />\n  <path d=\"M18 13.5a1.5 1.5 0 0 1 3 0v3a1.5 1.5 0 0 1 -3 0v-3\" />\n</svg>"
+    },
+    {
         "name": "brand-mixpanel",
         "kebab": "brand-mixpanel",
         "enum": "BrandMixpanel",
@@ -9454,7 +9482,7 @@
         "kebab": "brand-upwork",
         "enum": "BrandUpwork",
         "full_enum": "TablerIcon::BrandUpwork",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-brand-upwork\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 7v5a3 3 0 0 0 6 0v-5h1l4 6c.824 1.319 1.945 2 3.5 2a3.5 3.5 0 0 0 0 -7c-2.027 0 -3.137 1 -3.5 3c-.242 1.33 -.908 4 -2 8\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-brand-upwork\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 5.25v5.5c0 1.873 1.628 3.25 3.5 3.25s3.5 -1.377 3.5 -3.25v-5.75c1.146 2.865 2.85 9 7 9c2.184 0 4 -1.816 4 -4s-1.816 -4 -4 -4c-2.323 0 -3.687 2.031 -4 3.75c-.278 1.524 -1 9.25 -1 9.25\" />\n</svg>"
     },
     {
         "name": "brand-valorant",
@@ -9490,6 +9518,13 @@
         "enum": "BrandVercelFilled",
         "full_enum": "TablerIcon::BrandVercelFilled",
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"currentColor\"\n  class=\"icon icon-tabler icons-tabler-filled icon-tabler-brand-vercel\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M11.143 3.486a1 1 0 0 1 1.714 0l9 15a1 1 0 0 1 -.857 1.514h-18a1 1 0 0 1 -.857 -1.514z\" />\n</svg>"
+    },
+    {
+        "name": "brand-viber",
+        "kebab": "brand-viber",
+        "enum": "BrandViber",
+        "full_enum": "TablerIcon::BrandViber",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-brand-viber\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M12 19q -.515 0 -1 -.015l-4 3.015v-3.5c-2.5 -.75 -4 -2.904 -4 -7.5c0 -6.5 3 -8 9 -8s9 1.5 9 8s-3 8 -9 8\" />\n  <path d=\"M11.729 14.664c.725 .396 1.379 .65 1.802 .793a.84 .84 0 0 0 .863 -.215l.606 -.606l-1.633 -1.089a.46 .46 0 0 0 -.58 .058l-1.058 1.059\" />\n  <path d=\"M11.729 14.664a9.8 9.8 0 0 1 -2.243 -1.65a9.8 9.8 0 0 1 -1.65 -2.242\" />\n  <path d=\"M7.836 10.772a12 12 0 0 1 -.793 -1.803a.84 .84 0 0 1 .215 -.863l.606 -.606l1.089 1.633a.46 .46 0 0 1 -.058 .58l-1.059 1.059\" />\n  <path d=\"M17 10a4 4 0 0 0 -4 -4\" />\n  <path d=\"M14 10a1 1 0 0 0 -1 -1\" />\n</svg>"
     },
     {
         "name": "brand-vimeo",
@@ -9608,7 +9643,7 @@
         "kebab": "brand-webflow",
         "enum": "BrandWebflow",
         "full_enum": "TablerIcon::BrandWebflow",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-brand-webflow\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M17 10s-1.376 3.606 -1.5 4c-.046 -.4 -1.5 -8 -1.5 -8c-2.627 0 -3.766 1.562 -4.5 3.5c0 0 -1.843 4.593 -2 5c-.013 -.368 -.5 -4.5 -.5 -4.5c-.15 -2.371 -2.211 -3.98 -4 -3.98l2 12.98c2.745 -.013 4.72 -1.562 5.5 -3.5c0 0 1.44 -4.3 1.5 -4.5c.013 .18 1 8 1 8c2.758 0 4.694 -1.626 5.5 -3.5l3.5 -9.5c-2.732 0 -4.253 2.055 -5 4\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-brand-webflow\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M2 15.5v.5c0 .943 0 1.415 .403 1.714c.403 .3 .789 .185 1.561 -.047c4.536 -1.357 9.536 -5.167 9.536 -5.167l-1.377 2.542c-.715 1.32 -1.072 1.979 -.784 2.469c.29 .49 1.035 .49 2.528 .49h1.3c.582 0 .873 0 1.109 -.144c.236 -.142 .372 -.401 .646 -.918l4.225 -8c.693 -1.313 1.04 -1.969 .75 -2.454c-.288 -.485 -1.027 -.485 -2.503 -.485h-1.679c-.597 0 -.896 0 -1.136 .15c-.24 .149 -.373 .418 -.64 .956l-1.439 2.894l-.281 -2.248c-.104 -.834 -.156 -1.252 -.44 -1.502s-.704 -.25 -1.545 -.25h-1.168c-.681 0 -1.022 0 -1.275 .17s-.39 .508 -.665 1.182c-.94 2.311 -2.517 4.94 -5.16 5.833c-1.06 .358 -1.59 .537 -1.778 .798c-.188 .263 -.188 .681 -.188 1.517\" />\n  <path d=\"M2 8v.5c0 .943 0 1.414 .293 1.707s.764 .293 1.707 .293h.5c.943 0 1.414 0 1.707 -.293s.293 -.764 .293 -1.707v-.5c0 -.943 0 -1.414 -.293 -1.707s-.764 -.293 -1.707 -.293h-.5c-.943 0 -1.414 0 -1.707 .293s-.293 .764 -.293 1.707\" />\n</svg>"
     },
     {
         "name": "brand-wechat",
@@ -18641,6 +18676,13 @@
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-deaf\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M6 10a7 7 0 1 1 13 3.6a10 10 0 0 1 -2 2a8 8 0 0 0 -2 3a4.5 4.5 0 0 1 -6.8 1.4\" />\n  <path d=\"M10 10a3 3 0 1 1 5 2.2\" />\n  <path d=\"M5 13l4 4\" />\n  <path d=\"M9 13l-4 4\" />\n</svg>"
     },
     {
+        "name": "decagram",
+        "kebab": "decagram",
+        "enum": "Decagram",
+        "full_enum": "TablerIcon::Decagram",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-decagram\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M12 20.5l-3 1l-2 -2.5l-3 -1v-3.25l-2 -2.75l2 -2.75v-3.25l3 -1l2 -2.5l3 1l3 -1l2 2.5l3 1v3.25l2 2.75l-2 2.75v3.25l-3 1l-2 2.5l-3 -1\" />\n</svg>"
+    },
+    {
         "name": "decimal",
         "kebab": "decimal",
         "enum": "Decimal",
@@ -21970,7 +22012,7 @@
         "kebab": "exercise-ball",
         "enum": "ExerciseBall",
         "full_enum": "TablerIcon::ExerciseBall",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-exercise-ball\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M5.59 18.31a15.57 15.57 0 0 1 4.51 -9.21a15.9 15.9 0 0 1 7.43 -4.19\" />\n  <path d=\"M11.55 21a9.34 9.34 0 0 1 2.79 -7.65a9.5 9.5 0 0 1 6.54 -2.85\" />\n  <path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-exercise-ball\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M21.167 12a9.166 9.166 0 0 1 -9.167 9.167a9.166 9.166 0 0 1 -9.167 -9.167a9.166 9.166 0 0 1 9.167 -9.167a9.166 9.166 0 0 1 9.167 9.167\" />\n  <path d=\"M18.282 5.324c-.747 4.313 -4.506 7.593 -9.032 7.593a9.14 9.14 0 0 1 -6.283 -2.49\" />\n  <path d=\"M20.993 10.213c-1.941 4.297 -6.264 7.287 -11.285 7.287a12.3 12.3 0 0 1 -5.976 -1.536\" />\n  <path d=\"M4.35 6.947a6.42 6.42 0 0 0 10.268 -3.734\" />\n</svg>"
     },
     {
         "name": "explicit",
@@ -25655,11 +25697,18 @@
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-git-merge\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M5 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0\" />\n  <path d=\"M5 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0\" />\n  <path d=\"M15 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0\" />\n  <path d=\"M7 8l0 8\" />\n  <path d=\"M7 8a4 4 0 0 0 4 4h4\" />\n</svg>"
     },
     {
+        "name": "git-merge-ai",
+        "kebab": "git-merge-ai",
+        "enum": "GitMergeAi",
+        "full_enum": "TablerIcon::GitMergeAi",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-git-merge-ai\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M5 18a2 2 0 1 0 4 0a2 2 0 0 0 -4 0\" />\n  <path d=\"M5 6a2 2 0 1 0 4 0a2 2 0 0 0 -4 0\" />\n  <path d=\"M7 8v8\" />\n  <path d=\"M7 8a4 4 0 0 0 4 4h2\" />\n  <path d=\"M14 21v-4a2 2 0 1 1 4 0v4\" />\n  <path d=\"M14 19h4\" />\n  <path d=\"M21 15v6\" />\n</svg>"
+    },
+    {
         "name": "git-merge-queue",
         "kebab": "git-merge-queue",
         "enum": "GitMergeQueue",
         "full_enum": "TablerIcon::GitMergeQueue",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-git-merge-queue\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M4 18a2 2 0 1 0 4 0a2 2 0 0 0 -4 0\" />\n  <path d=\"M16 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0\" />\n  <path d=\"M6 11v5\" />\n  <path d=\"M4.5 4.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0\" />\n  <path d=\"M9.5 9.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-git-merge-queue\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M4 18a2 2 0 1 0 4 0a2 2 0 0 0 -4 0\" />\n  <path d=\"M16 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0\" />\n  <path d=\"M6 11v5\" />\n  <path d=\"M4.5 4.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0\" fill=\"currentColor\" />\n  <path d=\"M9.5 9.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0\" fill=\"currentColor\" />\n</svg>"
     },
     {
         "name": "git-pull-request",
@@ -25676,6 +25725,13 @@
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-git-pull-request-closed\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M4 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0\" />\n  <path d=\"M4 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0\" />\n  <path d=\"M16 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0\" />\n  <path d=\"M6 8v8\" />\n  <path d=\"M18 11v5\" />\n  <path d=\"M16 4l4 4m0 -4l-4 4\" />\n</svg>"
     },
     {
+        "name": "git-pull-request-closed-ai",
+        "kebab": "git-pull-request-closed-ai",
+        "enum": "GitPullRequestClosedAi",
+        "full_enum": "TablerIcon::GitPullRequestClosedAi",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-git-pull-request-closed-ai\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M4 18a2 2 0 1 0 4 0a2 2 0 0 0 -4 0\" />\n  <path d=\"M4 6a2 2 0 1 0 4 0a2 2 0 0 0 -4 0\" />\n  <path d=\"M6 8v8\" />\n  <path d=\"M18 11v1\" />\n  <path d=\"M16 4l4 4\" />\n  <path d=\"M20 4l-4 4\" />\n  <path d=\"M14 21v-4a2 2 0 1 1 4 0v4\" />\n  <path d=\"M14 19h4\" />\n  <path d=\"M21 15v6\" />\n</svg>"
+    },
+    {
         "name": "git-pull-request-conflict",
         "kebab": "git-pull-request-conflict",
         "enum": "GitPullRequestConflict",
@@ -25690,6 +25746,13 @@
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-git-pull-request-draft\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M4 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0\" />\n  <path d=\"M4 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0\" />\n  <path d=\"M16 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0\" />\n  <path d=\"M6 8v8\" />\n  <path d=\"M18 11h.01\" />\n  <path d=\"M18 6h.01\" />\n</svg>"
     },
     {
+        "name": "git-pull-request-draft-ai",
+        "kebab": "git-pull-request-draft-ai",
+        "enum": "GitPullRequestDraftAi",
+        "full_enum": "TablerIcon::GitPullRequestDraftAi",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-git-pull-request-draft-ai\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M4 18a2 2 0 1 0 4 0a2 2 0 0 0 -4 0\" />\n  <path d=\"M4 6a2 2 0 1 0 4 0a2 2 0 0 0 -4 0\" />\n  <path d=\"M6 8v8\" />\n  <path d=\"M18 11h.01\" />\n  <path d=\"M18 6h.01\" />\n  <path d=\"M14 21v-4a2 2 0 1 1 4 0v4\" />\n  <path d=\"M14 19h4\" />\n  <path d=\"M21 15v6\" />\n</svg>"
+    },
+    {
         "name": "git-pull-request-locked",
         "kebab": "git-pull-request-locked",
         "enum": "GitPullRequestLocked",
@@ -25697,11 +25760,18 @@
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-git-pull-request-locked\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M4 18a2 2 0 1 0 4 0a2 2 0 0 0 -4 0\" />\n  <path d=\"M4 6a2 2 0 1 0 4 0a2 2 0 0 0 -4 0\" />\n  <path d=\"M6 8v8\" />\n  <path d=\"M11 6h5a2 2 0 0 1 2 2v1\" />\n  <path d=\"M14 9l-3 -3l3 -3\" />\n  <path d=\"M14 17a1 1 0 0 1 1 -1h5a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-5a1 1 0 0 1 -1 -1v-3\" />\n  <path d=\"M16 16v-1.5a1.5 1.5 0 1 1 3 0v1.5\" />\n</svg>"
     },
     {
+        "name": "git-pull-request-locked-ai",
+        "kebab": "git-pull-request-locked-ai",
+        "enum": "GitPullRequestLockedAi",
+        "full_enum": "TablerIcon::GitPullRequestLockedAi",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-git-pull-request-locked-ai\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M4 18a2 2 0 1 0 4 0a2 2 0 0 0 -4 0\" />\n  <path d=\"M4 6a2 2 0 1 0 4 0a2 2 0 0 0 -4 0\" />\n  <path d=\"M6 8v8\" />\n  <path d=\"M11 6h5a2 2 0 0 1 2 2v3.25\" />\n  <path d=\"M14 9l-3 -3l3 -3\" />\n  <path d=\"M14 21v-4a2 2 0 1 1 4 0v4\" />\n  <path d=\"M14 19h4\" />\n  <path d=\"M21 15v6\" />\n</svg>"
+    },
+    {
         "name": "git-pull-request-unlisted",
         "kebab": "git-pull-request-unlisted",
         "enum": "GitPullRequestUnlisted",
         "full_enum": "TablerIcon::GitPullRequestUnlisted",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-git-pull-request-unlisted\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M16.5 5.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0\" />\n  <path d=\"M16.5 11.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0\" />\n  <path d=\"M4 18a2 2 0 1 0 4 0a2 2 0 0 0 -4 0\" />\n  <path d=\"M4 6a2 2 0 1 0 4 0a2 2 0 0 0 -4 0\" />\n  <path d=\"M6 8v8\" />\n  <path d=\"M16 17l3 3\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-git-pull-request-unlisted\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M16.5 4.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0\" fill=\"currentColor\" />\n  <path d=\"M16.5 10.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0\" fill=\"currentColor\" />\n  <path d=\"M4 18a2 2 0 1 0 4 0a2 2 0 0 0 -4 0\" />\n  <path d=\"M4 6a2 2 0 1 0 4 0a2 2 0 0 0 -4 0\" />\n  <path d=\"M6 8v8\" />\n  <path d=\"M16 16l3 3\" />\n</svg>"
     },
     {
         "name": "gizmo",
@@ -26758,21 +26828,21 @@
         "kebab": "help-octagon",
         "enum": "HelpOctagon",
         "full_enum": "TablerIcon::HelpOctagon",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-help-octagon\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M12.802 2.165l5.575 2.389c.48 .206 .863 .589 1.07 1.07l2.388 5.574c.22 .512 .22 1.092 0 1.604l-2.389 5.575c-.206 .48 -.589 .863 -1.07 1.07l-5.574 2.388c-.512 .22 -1.092 .22 -1.604 0l-5.575 -2.389a2.036 2.036 0 0 1 -1.07 -1.07l-2.388 -5.574a2.036 2.036 0 0 1 0 -1.604l2.389 -5.575c.206 -.48 .589 -.863 1.07 -1.07l5.574 -2.388a2.036 2.036 0 0 1 1.604 0\" />\n  <path d=\"M12 16v.01\" />\n  <path d=\"M12 13a2 2 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-help-octagon\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 9.101v5.798c0 .53 .211 1.039 .586 1.415l4.1 4.1c.375 .375 .884 .586 1.415 .586h5.799c.53 0 1.039 -.211 1.414 -.586l4.1 -4.1c.375 -.375 .586 -.884 .586 -1.415v-5.798c0 -.53 -.211 -1.039 -.586 -1.415l-4.1 -4.1c-.375 -.375 -.884 -.586 -1.414 -.586l-5.799 0c-.53 0 -1.039 .211 -1.415 .586l-4.1 4.1c-.375 .375 -.586 .884 -.586 1.415\" />\n  <path d=\"M12 16v.01\" />\n  <path d=\"M12 13a2 2 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483\" />\n</svg>"
     },
     {
         "name": "help-octagon-f",
         "kebab": "help-octagon-f",
         "enum": "HelpOctagonF",
         "full_enum": "TablerIcon::HelpOctagonF",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"currentColor\"\n  class=\"icon icon-tabler icons-tabler-filled icon-tabler-help-octagon\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M14.897 1a4 4 0 0 1 2.664 1.016l.165 .156l4.1 4.1a4 4 0 0 1 1.168 2.605l.006 .227v5.794a4 4 0 0 1 -1.016 2.664l-.156 .165l-4.1 4.1a4 4 0 0 1 -2.603 1.168l-.227 .006h-5.795a3.999 3.999 0 0 1 -2.664 -1.017l-.165 -.156l-4.1 -4.1a4 4 0 0 1 -1.168 -2.604l-.006 -.227v-5.794a4 4 0 0 1 1.016 -2.664l.156 -.165l4.1 -4.1a4 4 0 0 1 2.605 -1.168l.227 -.006h5.793zm-2.897 14a1 1 0 0 0 -.993 .883l-.007 .117l.007 .127a1 1 0 0 0 1.986 0l.007 -.117l-.007 -.127a1 1 0 0 0 -.993 -.883zm1.368 -6.673a2.98 2.98 0 0 0 -3.631 .728a1 1 0 0 0 1.44 1.383l.171 -.18a.98 .98 0 0 1 1.11 -.15a1 1 0 0 1 -.34 1.886l-.232 .012a1 1 0 0 0 .111 1.994a3 3 0 0 0 1.371 -5.673z\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"currentColor\"\n  class=\"icon icon-tabler icons-tabler-filled icon-tabler-help-octagon\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M14.899 2c.796 0 1.558 .316 2.121 .879l4.101 4.1c.563 .563 .879 1.325 .879 2.122v5.798c0 .796 -.316 1.558 -.879 2.121l-4.101 4.101c-.563 .563 -1.325 .879 -2.121 .879h-5.798c-.796 0 -1.558 -.316 -2.122 -.879l-4.1 -4.101c-.563 -.563 -.879 -1.325 -.879 -2.121v-5.798c0 -.796 .316 -1.558 .879 -2.122l4.1 -4.1c.563 -.563 1.325 -.879 2.122 -.879h5.798zm-2.899 13c-.552 0 -1 .448 -1 1v.01c0 .552 .448 1 1 1c.552 0 1 -.448 1 -1v-.01c0 -.552 -.448 -1 -1 -1zm1.368 -6.673c-.598 -.306 -1.283 -.401 -1.941 -.269c-.66 .132 -1.256 .484 -1.691 .997c-.357 .421 -.304 1.052 .118 1.409c.422 .357 1.053 .304 1.41 -.117c.143 -.169 .339 -.284 .555 -.327c.217 -.043 .442 -.013 .639 .087l.002 .001c.2 .102 .36 .269 .454 .474c.094 .204 .117 .434 .065 .652c-.053 .218 -.179 .413 -.356 .552c-.177 .139 -.395 .215 -.62 .214c-.552 -.002 -1.001 .445 -1.003 .997c-.002 .552 .445 1.001 .997 1.003c.675 .002 1.331 -.223 1.861 -.64c.531 -.417 .905 -1.001 1.064 -1.656c.158 -.655 .091 -1.345 -.191 -1.958c-.247 -.536 -.645 -.987 -1.143 -1.296l-.22 -.123z\" />\n</svg>"
     },
     {
         "name": "help-octagon-filled",
         "kebab": "help-octagon-filled",
         "enum": "HelpOctagonFilled",
         "full_enum": "TablerIcon::HelpOctagonFilled",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"currentColor\"\n  class=\"icon icon-tabler icons-tabler-filled icon-tabler-help-octagon\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M14.897 1a4 4 0 0 1 2.664 1.016l.165 .156l4.1 4.1a4 4 0 0 1 1.168 2.605l.006 .227v5.794a4 4 0 0 1 -1.016 2.664l-.156 .165l-4.1 4.1a4 4 0 0 1 -2.603 1.168l-.227 .006h-5.795a3.999 3.999 0 0 1 -2.664 -1.017l-.165 -.156l-4.1 -4.1a4 4 0 0 1 -1.168 -2.604l-.006 -.227v-5.794a4 4 0 0 1 1.016 -2.664l.156 -.165l4.1 -4.1a4 4 0 0 1 2.605 -1.168l.227 -.006h5.793zm-2.897 14a1 1 0 0 0 -.993 .883l-.007 .117l.007 .127a1 1 0 0 0 1.986 0l.007 -.117l-.007 -.127a1 1 0 0 0 -.993 -.883zm1.368 -6.673a2.98 2.98 0 0 0 -3.631 .728a1 1 0 0 0 1.44 1.383l.171 -.18a.98 .98 0 0 1 1.11 -.15a1 1 0 0 1 -.34 1.886l-.232 .012a1 1 0 0 0 .111 1.994a3 3 0 0 0 1.371 -5.673z\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"currentColor\"\n  class=\"icon icon-tabler icons-tabler-filled icon-tabler-help-octagon\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M14.899 2c.796 0 1.558 .316 2.121 .879l4.101 4.1c.563 .563 .879 1.325 .879 2.122v5.798c0 .796 -.316 1.558 -.879 2.121l-4.101 4.101c-.563 .563 -1.325 .879 -2.121 .879h-5.798c-.796 0 -1.558 -.316 -2.122 -.879l-4.1 -4.101c-.563 -.563 -.879 -1.325 -.879 -2.121v-5.798c0 -.796 .316 -1.558 .879 -2.122l4.1 -4.1c.563 -.563 1.325 -.879 2.122 -.879h5.798zm-2.899 13c-.552 0 -1 .448 -1 1v.01c0 .552 .448 1 1 1c.552 0 1 -.448 1 -1v-.01c0 -.552 -.448 -1 -1 -1zm1.368 -6.673c-.598 -.306 -1.283 -.401 -1.941 -.269c-.66 .132 -1.256 .484 -1.691 .997c-.357 .421 -.304 1.052 .118 1.409c.422 .357 1.053 .304 1.41 -.117c.143 -.169 .339 -.284 .555 -.327c.217 -.043 .442 -.013 .639 .087l.002 .001c.2 .102 .36 .269 .454 .474c.094 .204 .117 .434 .065 .652c-.053 .218 -.179 .413 -.356 .552c-.177 .139 -.395 .215 -.62 .214c-.552 -.002 -1.001 .445 -1.003 .997c-.002 .552 .445 1.001 .997 1.003c.675 .002 1.331 -.223 1.861 -.64c.531 -.417 .905 -1.001 1.064 -1.656c.158 -.655 .091 -1.345 -.191 -1.958c-.247 -.536 -.645 -.987 -1.143 -1.296l-.22 -.123z\" />\n</svg>"
     },
     {
         "name": "help-off",
@@ -28613,21 +28683,21 @@
         "kebab": "info-octagon",
         "enum": "InfoOctagon",
         "full_enum": "TablerIcon::InfoOctagon",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-info-octagon\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M12.802 2.165l5.575 2.389c.48 .206 .863 .589 1.07 1.07l2.388 5.574c.22 .512 .22 1.092 0 1.604l-2.389 5.575c-.206 .48 -.589 .863 -1.07 1.07l-5.574 2.388c-.512 .22 -1.092 .22 -1.604 0l-5.575 -2.389a2.036 2.036 0 0 1 -1.07 -1.07l-2.388 -5.574a2.036 2.036 0 0 1 0 -1.604l2.389 -5.575c.206 -.48 .589 -.863 1.07 -1.07l5.574 -2.388a2.036 2.036 0 0 1 1.604 0\" />\n  <path d=\"M12 9h.01\" />\n  <path d=\"M11 12h1v4h1\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-info-octagon\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 9.101v5.798c0 .53 .211 1.039 .586 1.415l4.1 4.1c.375 .375 .884 .586 1.415 .586h5.799c.53 0 1.039 -.211 1.414 -.586l4.1 -4.1c.375 -.375 .586 -.884 .586 -1.415v-5.798c0 -.53 -.211 -1.039 -.586 -1.415l-4.1 -4.1c-.375 -.375 -.884 -.586 -1.414 -.586l-5.799 0c-.53 0 -1.039 .211 -1.415 .586l-4.1 4.1c-.375 .375 -.586 .884 -.586 1.415\" />\n  <path d=\"M12 9h.01\" />\n  <path d=\"M11 12h1v4h1\" />\n</svg>"
     },
     {
         "name": "info-octagon-f",
         "kebab": "info-octagon-f",
         "enum": "InfoOctagonF",
         "full_enum": "TablerIcon::InfoOctagonF",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"currentColor\"\n  class=\"icon icon-tabler icons-tabler-filled icon-tabler-info-octagon\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M14.897 1a4 4 0 0 1 2.664 1.016l.165 .156l4.1 4.1a4 4 0 0 1 1.168 2.605l.006 .227v5.794a4 4 0 0 1 -1.016 2.664l-.156 .165l-4.1 4.1a4 4 0 0 1 -2.603 1.168l-.227 .006h-5.795a3.999 3.999 0 0 1 -2.664 -1.017l-.165 -.156l-4.1 -4.1a4 4 0 0 1 -1.168 -2.604l-.006 -.227v-5.794a4 4 0 0 1 1.016 -2.664l.156 -.165l4.1 -4.1a4 4 0 0 1 2.605 -1.168l.227 -.006h5.793zm-2.897 10h-1l-.117 .007a1 1 0 0 0 0 1.986l.117 .007v3l.007 .117a1 1 0 0 0 .876 .876l.117 .007h1l.117 -.007a1 1 0 0 0 .876 -.876l.007 -.117l-.007 -.117a1 1 0 0 0 -.764 -.857l-.112 -.02l-.117 -.006v-3l-.007 -.117a1 1 0 0 0 -.876 -.876l-.117 -.007zm.01 -3l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007z\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"currentColor\"\n  class=\"icon icon-tabler icons-tabler-filled icon-tabler-info-octagon\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M14.899 2c.796 0 1.558 .316 2.121 .879l4.101 4.1c.563 .563 .879 1.325 .879 2.122v5.798c0 .796 -.316 1.558 -.879 2.121l-4.101 4.101c-.563 .563 -1.325 .879 -2.121 .879h-5.798c-.796 0 -1.558 -.316 -2.122 -.879l-4.1 -4.101c-.563 -.563 -.879 -1.325 -.879 -2.121v-5.798c0 -.796 .316 -1.558 .879 -2.122l4.1 -4.1c.563 -.563 1.325 -.879 2.122 -.879h5.798zm-3.899 9c-.552 0 -1 .448 -1 1c0 .552 .448 1 1 1v3c0 .552 .448 1 1 1h1c.552 0 1 -.448 1 -1c0 -.552 -.448 -1 -1 -1v-3c0 -.552 -.448 -1 -1 -1h-1zm1 -3c-.552 0 -1 .448 -1 1c0 .552 .448 1 1 1h.01c.552 0 1 -.448 1 -1c0 -.552 -.448 -1 -1 -1h-.01z\" />\n</svg>"
     },
     {
         "name": "info-octagon-filled",
         "kebab": "info-octagon-filled",
         "enum": "InfoOctagonFilled",
         "full_enum": "TablerIcon::InfoOctagonFilled",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"currentColor\"\n  class=\"icon icon-tabler icons-tabler-filled icon-tabler-info-octagon\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M14.897 1a4 4 0 0 1 2.664 1.016l.165 .156l4.1 4.1a4 4 0 0 1 1.168 2.605l.006 .227v5.794a4 4 0 0 1 -1.016 2.664l-.156 .165l-4.1 4.1a4 4 0 0 1 -2.603 1.168l-.227 .006h-5.795a3.999 3.999 0 0 1 -2.664 -1.017l-.165 -.156l-4.1 -4.1a4 4 0 0 1 -1.168 -2.604l-.006 -.227v-5.794a4 4 0 0 1 1.016 -2.664l.156 -.165l4.1 -4.1a4 4 0 0 1 2.605 -1.168l.227 -.006h5.793zm-2.897 10h-1l-.117 .007a1 1 0 0 0 0 1.986l.117 .007v3l.007 .117a1 1 0 0 0 .876 .876l.117 .007h1l.117 -.007a1 1 0 0 0 .876 -.876l.007 -.117l-.007 -.117a1 1 0 0 0 -.764 -.857l-.112 -.02l-.117 -.006v-3l-.007 -.117a1 1 0 0 0 -.876 -.876l-.117 -.007zm.01 -3l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007z\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"currentColor\"\n  class=\"icon icon-tabler icons-tabler-filled icon-tabler-info-octagon\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M14.899 2c.796 0 1.558 .316 2.121 .879l4.101 4.1c.563 .563 .879 1.325 .879 2.122v5.798c0 .796 -.316 1.558 -.879 2.121l-4.101 4.101c-.563 .563 -1.325 .879 -2.121 .879h-5.798c-.796 0 -1.558 -.316 -2.122 -.879l-4.1 -4.101c-.563 -.563 -.879 -1.325 -.879 -2.121v-5.798c0 -.796 .316 -1.558 .879 -2.122l4.1 -4.1c.563 -.563 1.325 -.879 2.122 -.879h5.798zm-3.899 9c-.552 0 -1 .448 -1 1c0 .552 .448 1 1 1v3c0 .552 .448 1 1 1h1c.552 0 1 -.448 1 -1c0 -.552 -.448 -1 -1 -1v-3c0 -.552 -.448 -1 -1 -1h-1zm1 -3c-.552 0 -1 .448 -1 1c0 .552 .448 1 1 1h.01c.552 0 1 -.448 1 -1c0 -.552 -.448 -1 -1 -1h-.01z\" />\n</svg>"
     },
     {
         "name": "info-small",
@@ -31759,6 +31829,13 @@
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-lollipop-off\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M7.462 7.493a7 7 0 0 0 9.06 9.039m2.416 -1.57a7 7 0 1 0 -9.884 -9.915\" />\n  <path d=\"M21 10a3.5 3.5 0 0 0 -7 0\" />\n  <path d=\"M12.71 12.715a3.5 3.5 0 0 1 -5.71 -2.715\" />\n  <path d=\"M14 17c.838 0 1.607 -.294 2.209 -.785m1.291 -2.715a3.5 3.5 0 0 0 -3.5 -3.5\" />\n  <path d=\"M14 3a3.5 3.5 0 0 0 -3.5 3.5\" />\n  <path d=\"M3 21l6 -6\" />\n  <path d=\"M3 3l18 18\" />\n</svg>"
     },
     {
+        "name": "loop",
+        "kebab": "loop",
+        "enum": "Loop",
+        "full_enum": "TablerIcon::Loop",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-loop\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M15 7c-1.267 -1.268 -3.066 -2 -5 -2a7 7 0 1 0 0 14c1.934 0 3.75 -.75 5 -2l7 -7\" />\n  <path d=\"M17 10h5v5\" />\n</svg>"
+    },
+    {
         "name": "luggage",
         "kebab": "luggage",
         "enum": "Luggage",
@@ -32445,6 +32522,13 @@
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-map-pins\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M10.828 9.828a4 4 0 1 0 -5.656 0l2.828 2.829l2.828 -2.829\" />\n  <path d=\"M8 7l0 .01\" />\n  <path d=\"M18.828 17.828a4 4 0 1 0 -5.656 0l2.828 2.829l2.828 -2.829\" />\n  <path d=\"M16 15l0 .01\" />\n</svg>"
     },
     {
+        "name": "map-pins-off",
+        "kebab": "map-pins-off",
+        "enum": "MapPinsOff",
+        "full_enum": "TablerIcon::MapPinsOff",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-map-pins-off\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M4.712 4.72a4 4 0 0 0 .46 5.108l2.828 2.829l2.333 -2.334\" />\n  <path d=\"M11.898 7.897a4 4 0 0 0 -4.796 -4.797\" />\n  <path d=\"M12.715 12.717a4 4 0 0 0 .457 5.111l2.828 2.829l2.332 -2.333\" />\n  <path d=\"M19.9 15.888a4 4 0 0 0 -4.795 -4.788\" />\n  <path d=\"M3 3l18 18\" />\n</svg>"
+    },
+    {
         "name": "map-plus",
         "kebab": "map-plus",
         "enum": "MapPlus",
@@ -32891,6 +32975,13 @@
         "enum": "MaximizeOff",
         "full_enum": "TablerIcon::MaximizeOff",
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-maximize-off\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M4 8v-2c0 -.551 .223 -1.05 .584 -1.412\" />\n  <path d=\"M4 16v2a2 2 0 0 0 2 2h2\" />\n  <path d=\"M16 4h2a2 2 0 0 1 2 2v2\" />\n  <path d=\"M16 20h2c.545 0 1.04 -.218 1.4 -.572\" />\n  <path d=\"M3 3l18 18\" />\n</svg>"
+    },
+    {
+        "name": "mcp",
+        "kebab": "mcp",
+        "enum": "Mcp",
+        "full_enum": "TablerIcon::Mcp",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-mcp\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3.2 11.371l8.297 -8.297c1.146 -1.146 3.003 -1.146 4.148 0c1.146 1.146 1.146 3.003 0 4.149l-6.266 6.265\" />\n  <path d=\"M9.466 13.402l6.179 -6.179c1.146 -1.146 3.003 -1.146 4.149 0l.043 .043c1.146 1.146 1.146 3.003 0 4.148l-7.504 7.504c-.382 .382 -.382 1.001 0 1.383l1.541 1.54\" />\n  <path d=\"M13.571 5.148l-6.136 6.136c-1.146 1.146 -1.146 3.003 0 4.149c1.146 1.145 3.003 1.145 4.148 0l6.136 -6.136\" />\n</svg>"
     },
     {
         "name": "meat",
@@ -36264,84 +36355,84 @@
         "kebab": "octagon",
         "enum": "Octagon",
         "full_enum": "TablerIcon::Octagon",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-octagon\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M12.802 2.165l5.575 2.389c.48 .206 .863 .589 1.07 1.07l2.388 5.574c.22 .512 .22 1.092 0 1.604l-2.389 5.575c-.206 .48 -.589 .863 -1.07 1.07l-5.574 2.388c-.512 .22 -1.092 .22 -1.604 0l-5.575 -2.389a2.036 2.036 0 0 1 -1.07 -1.07l-2.388 -5.574a2.036 2.036 0 0 1 0 -1.604l2.389 -5.575c.206 -.48 .589 -.863 1.07 -1.07l5.574 -2.388a2.036 2.036 0 0 1 1.604 0\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-octagon\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 9.101v5.798c0 .53 .211 1.039 .586 1.415l4.1 4.1c.375 .375 .884 .586 1.415 .586h5.799c.53 0 1.039 -.211 1.414 -.586l4.1 -4.1c.375 -.375 .586 -.884 .586 -1.415v-5.798c0 -.53 -.211 -1.039 -.586 -1.415l-4.1 -4.1c-.375 -.375 -.884 -.586 -1.414 -.586l-5.799 0c-.53 0 -1.039 .211 -1.415 .586l-4.1 4.1c-.375 .375 -.586 .884 -.586 1.415\" />\n</svg>"
     },
     {
         "name": "octagon-f",
         "kebab": "octagon-f",
         "enum": "OctagonF",
         "full_enum": "TablerIcon::OctagonF",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"currentColor\"\n  class=\"icon icon-tabler icons-tabler-filled icon-tabler-octagon\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M15.3 2h-6.6c-.562 0 -1.016 .201 -1.407 .593l-4.7 4.7a1.894 1.894 0 0 0 -.593 1.407v6.6c0 .562 .201 1.016 .593 1.407l4.7 4.7c.391 .392 .845 .593 1.407 .593h6.6c.562 0 1.016 -.201 1.407 -.593l4.7 -4.7c.392 -.391 .593 -.845 .593 -1.407v-6.6c0 -.562 -.201 -1.016 -.593 -1.407l-4.7 -4.7a1.894 1.894 0 0 0 -1.407 -.593z\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"currentColor\"\n  class=\"icon icon-tabler icons-tabler-filled icon-tabler-octagon\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M14.899 2c.796 0 1.558 .316 2.121 .879l4.101 4.1c.563 .563 .879 1.325 .879 2.122v5.798c0 .796 -.316 1.558 -.879 2.121l-4.101 4.101c-.563 .563 -1.325 .879 -2.121 .879h-5.798c-.796 0 -1.558 -.316 -2.122 -.879l-4.1 -4.101c-.563 -.563 -.879 -1.325 -.879 -2.121v-5.798c0 -.796 .316 -1.558 .879 -2.122l4.1 -4.1c.563 -.563 1.325 -.879 2.122 -.879h5.798z\" />\n</svg>"
     },
     {
         "name": "octagon-filled",
         "kebab": "octagon-filled",
         "enum": "OctagonFilled",
         "full_enum": "TablerIcon::OctagonFilled",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"currentColor\"\n  class=\"icon icon-tabler icons-tabler-filled icon-tabler-octagon\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M15.3 2h-6.6c-.562 0 -1.016 .201 -1.407 .593l-4.7 4.7a1.894 1.894 0 0 0 -.593 1.407v6.6c0 .562 .201 1.016 .593 1.407l4.7 4.7c.391 .392 .845 .593 1.407 .593h6.6c.562 0 1.016 -.201 1.407 -.593l4.7 -4.7c.392 -.391 .593 -.845 .593 -1.407v-6.6c0 -.562 -.201 -1.016 -.593 -1.407l-4.7 -4.7a1.894 1.894 0 0 0 -1.407 -.593z\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"currentColor\"\n  class=\"icon icon-tabler icons-tabler-filled icon-tabler-octagon\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M14.899 2c.796 0 1.558 .316 2.121 .879l4.101 4.1c.563 .563 .879 1.325 .879 2.122v5.798c0 .796 -.316 1.558 -.879 2.121l-4.101 4.101c-.563 .563 -1.325 .879 -2.121 .879h-5.798c-.796 0 -1.558 -.316 -2.122 -.879l-4.1 -4.101c-.563 -.563 -.879 -1.325 -.879 -2.121v-5.798c0 -.796 .316 -1.558 .879 -2.122l4.1 -4.1c.563 -.563 1.325 -.879 2.122 -.879h5.798z\" />\n</svg>"
     },
     {
         "name": "octagon-minus",
         "kebab": "octagon-minus",
         "enum": "OctagonMinus",
         "full_enum": "TablerIcon::OctagonMinus",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-octagon-minus\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M12.802 2.165l5.575 2.389c.48 .206 .863 .589 1.07 1.07l2.388 5.574c.22 .512 .22 1.092 0 1.604l-2.389 5.575c-.206 .48 -.589 .863 -1.07 1.07l-5.574 2.388c-.512 .22 -1.092 .22 -1.604 0l-5.575 -2.389a2.036 2.036 0 0 1 -1.07 -1.07l-2.388 -5.574a2.036 2.036 0 0 1 0 -1.604l2.389 -5.575c.206 -.48 .589 -.863 1.07 -1.07l5.574 -2.388a2.036 2.036 0 0 1 1.604 0\" />\n  <path d=\"M9 12h6\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-octagon-minus\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 9.101v5.798c0 .53 .211 1.039 .586 1.415l4.1 4.1c.375 .375 .884 .586 1.415 .586h5.799c.53 0 1.039 -.211 1.414 -.586l4.1 -4.1c.375 -.375 .586 -.884 .586 -1.415v-5.798c0 -.53 -.211 -1.039 -.586 -1.415l-4.1 -4.1c-.375 -.375 -.884 -.586 -1.414 -.586l-5.799 0c-.53 0 -1.039 .211 -1.415 .586l-4.1 4.1c-.375 .375 -.586 .884 -.586 1.415\" />\n  <path d=\"M9 12h6\" />\n</svg>"
     },
     {
         "name": "octagon-minus-2",
         "kebab": "octagon-minus-2",
         "enum": "OctagonMinus2",
         "full_enum": "TablerIcon::OctagonMinus2",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-octagon-minus-2\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M13.039 21.734l-.237 .101c-.512 .22 -1.092 .22 -1.604 0l-5.575 -2.389a2.036 2.036 0 0 1 -1.07 -1.07l-2.388 -5.574a2.036 2.036 0 0 1 0 -1.604l2.389 -5.575c.206 -.48 .589 -.863 1.07 -1.07l5.574 -2.388a2.036 2.036 0 0 1 1.604 0l5.575 2.389c.48 .206 .863 .589 1.07 1.07l2.388 5.574c.22 .512 .22 1.092 0 1.604l-.94 2.196\" />\n  <path d=\"M16 19h6\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-octagon-minus-2\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M21 14v-4.899c0 -.53 -.211 -1.039 -.586 -1.414l-4.1 -4.101c-.375 -.375 -.884 -.586 -1.415 -.586h-5.798c-.53 0 -1.039 .211 -1.414 .586l-4.101 4.101c-.375 .375 -.586 .884 -.586 1.414v5.798c0 .53 .211 1.039 .586 1.415l4.101 4.1c.375 .375 .884 .586 1.414 .586h2.899\" />\n  <path d=\"M16 19h6\" />\n</svg>"
     },
     {
         "name": "octagon-minus-f",
         "kebab": "octagon-minus-f",
         "enum": "OctagonMinusF",
         "full_enum": "TablerIcon::OctagonMinusF",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"currentColor\"\n  class=\"icon icon-tabler icons-tabler-filled icon-tabler-octagon-minus\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M13.196 1.246l5.575 2.39a3.04 3.04 0 0 1 1.595 1.594l2.388 5.573c.328 .764 .328 1.63 0 2.393l-2.39 5.575a3.04 3.04 0 0 1 -1.594 1.595l-5.573 2.388a3.03 3.03 0 0 1 -2.393 0l-5.574 -2.389a3.04 3.04 0 0 1 -1.595 -1.595l-2.388 -5.574a3.04 3.04 0 0 1 0 -2.392l2.39 -5.575a3.04 3.04 0 0 1 1.593 -1.595l5.574 -2.388a3.04 3.04 0 0 1 2.392 0m1.804 9.754h-6a1 1 0 0 0 0 2h6a1 1 0 0 0 0 -2\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"currentColor\"\n  class=\"icon icon-tabler icons-tabler-filled icon-tabler-octagon-minus\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M14.899 2c.796 0 1.558 .316 2.121 .879l4.101 4.1c.563 .563 .879 1.325 .879 2.122v5.798c0 .796 -.316 1.558 -.879 2.121l-4.101 4.101c-.563 .563 -1.325 .879 -2.121 .879h-5.798c-.796 0 -1.558 -.316 -2.122 -.879l-4.1 -4.101c-.563 -.563 -.879 -1.325 -.879 -2.121v-5.798c0 -.796 .316 -1.558 .879 -2.122l4.1 -4.1c.563 -.563 1.325 -.879 2.122 -.879h5.798zm-5.899 9c-.552 0 -1 .448 -1 1c0 .552 .448 1 1 1h6c.552 0 1 -.448 1 -1c0 -.552 -.448 -1 -1 -1h-6z\" />\n</svg>"
     },
     {
         "name": "octagon-minus-filled",
         "kebab": "octagon-minus-filled",
         "enum": "OctagonMinusFilled",
         "full_enum": "TablerIcon::OctagonMinusFilled",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"currentColor\"\n  class=\"icon icon-tabler icons-tabler-filled icon-tabler-octagon-minus\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M13.196 1.246l5.575 2.39a3.04 3.04 0 0 1 1.595 1.594l2.388 5.573c.328 .764 .328 1.63 0 2.393l-2.39 5.575a3.04 3.04 0 0 1 -1.594 1.595l-5.573 2.388a3.03 3.03 0 0 1 -2.393 0l-5.574 -2.389a3.04 3.04 0 0 1 -1.595 -1.595l-2.388 -5.574a3.04 3.04 0 0 1 0 -2.392l2.39 -5.575a3.04 3.04 0 0 1 1.593 -1.595l5.574 -2.388a3.04 3.04 0 0 1 2.392 0m1.804 9.754h-6a1 1 0 0 0 0 2h6a1 1 0 0 0 0 -2\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"currentColor\"\n  class=\"icon icon-tabler icons-tabler-filled icon-tabler-octagon-minus\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M14.899 2c.796 0 1.558 .316 2.121 .879l4.101 4.1c.563 .563 .879 1.325 .879 2.122v5.798c0 .796 -.316 1.558 -.879 2.121l-4.101 4.101c-.563 .563 -1.325 .879 -2.121 .879h-5.798c-.796 0 -1.558 -.316 -2.122 -.879l-4.1 -4.101c-.563 -.563 -.879 -1.325 -.879 -2.121v-5.798c0 -.796 .316 -1.558 .879 -2.122l4.1 -4.1c.563 -.563 1.325 -.879 2.122 -.879h5.798zm-5.899 9c-.552 0 -1 .448 -1 1c0 .552 .448 1 1 1h6c.552 0 1 -.448 1 -1c0 -.552 -.448 -1 -1 -1h-6z\" />\n</svg>"
     },
     {
         "name": "octagon-off",
         "kebab": "octagon-off",
         "enum": "OctagonOff",
         "full_enum": "TablerIcon::OctagonOff",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-octagon-off\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M19.027 19.002a2.03 2.03 0 0 1 -.65 .444l-5.575 2.39a2.04 2.04 0 0 1 -1.604 0l-5.575 -2.39a2.036 2.036 0 0 1 -1.07 -1.07l-2.388 -5.574a2.036 2.036 0 0 1 0 -1.604l2.389 -5.575c.103 -.24 .25 -.457 .433 -.639m2.689 -1.31l3.522 -1.51a2.036 2.036 0 0 1 1.604 0l5.575 2.39c.48 .206 .863 .589 1.07 1.07l2.388 5.574c.22 .512 .22 1.092 0 1.604l-1.509 3.522\" />\n  <path d=\"M3 3l18 18\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-octagon-off\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M20.414 16.314c.375 -.375 .586 -.884 .586 -1.415v-5.798c0 -.53 -.211 -1.039 -.586 -1.414l-4.101 -4.101c-.375 -.375 -.884 -.586 -1.414 -.586h-5.798c-.53 0 -1.039 .211 -1.414 .586\" />\n  <path d=\"M18.363 18.363l-2.049 2.051c-.375 .375 -.884 .586 -1.415 .586h-5.798c-.53 0 -1.039 -.211 -1.414 -.586l-4.101 -4.1c-.375 -.375 -.586 -.884 -.586 -1.415v-5.798c0 -.53 .211 -1.039 .586 -1.414l2.05 -2.051\" />\n  <path d=\"M3 3l18 18\" />\n</svg>"
     },
     {
         "name": "octagon-plus",
         "kebab": "octagon-plus",
         "enum": "OctagonPlus",
         "full_enum": "TablerIcon::OctagonPlus",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-octagon-plus\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M12.802 2.165l5.575 2.389c.48 .206 .863 .589 1.07 1.07l2.388 5.574c.22 .512 .22 1.092 0 1.604l-2.389 5.575c-.206 .48 -.589 .863 -1.07 1.07l-5.574 2.388c-.512 .22 -1.092 .22 -1.604 0l-5.575 -2.389a2.036 2.036 0 0 1 -1.07 -1.07l-2.388 -5.574a2.036 2.036 0 0 1 0 -1.604l2.389 -5.575c.206 -.48 .589 -.863 1.07 -1.07l5.574 -2.388a2.036 2.036 0 0 1 1.604 0\" />\n  <path d=\"M9 12h6\" />\n  <path d=\"M12 9v6\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-octagon-plus\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 9.101v5.798c0 .53 .211 1.039 .586 1.415l4.1 4.1c.375 .375 .884 .586 1.415 .586h5.799c.53 0 1.039 -.211 1.414 -.586l4.1 -4.1c.375 -.375 .586 -.884 .586 -1.415v-5.798c0 -.53 -.211 -1.039 -.586 -1.415l-4.1 -4.1c-.375 -.375 -.884 -.586 -1.414 -.586l-5.799 0c-.53 0 -1.039 .211 -1.415 .586l-4.1 4.1c-.375 .375 -.586 .884 -.586 1.415\" />\n  <path d=\"M9 12h6\" />\n  <path d=\"M12 9v6\" />\n</svg>"
     },
     {
         "name": "octagon-plus-2",
         "kebab": "octagon-plus-2",
         "enum": "OctagonPlus2",
         "full_enum": "TablerIcon::OctagonPlus2",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-octagon-plus-2\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M13.023 21.74l-.221 .095c-.512 .22 -1.092 .22 -1.604 0l-5.575 -2.389a2.036 2.036 0 0 1 -1.07 -1.07l-2.388 -5.574a2.036 2.036 0 0 1 0 -1.604l2.389 -5.575c.206 -.48 .589 -.863 1.07 -1.07l5.574 -2.388a2.036 2.036 0 0 1 1.604 0l5.575 2.389c.48 .206 .863 .589 1.07 1.07l2.388 5.574c.22 .512 .22 1.092 0 1.604l-.081 .19\" />\n  <path d=\"M16 19h6\" />\n  <path d=\"M19 16v6\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-octagon-plus-2\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M21 12v-2.899c0 -.53 -.211 -1.039 -.586 -1.414l-4.1 -4.101c-.375 -.375 -.884 -.586 -1.415 -.586h-5.798c-.53 0 -1.039 .211 -1.414 .586l-4.101 4.101c-.375 .375 -.586 .884 -.586 1.414v5.798c0 .53 .211 1.039 .586 1.415l4.101 4.1c.375 .375 .884 .586 1.414 .586h2.899\" />\n  <path d=\"M16 19h6\" />\n  <path d=\"M19 16v6\" />\n</svg>"
     },
     {
         "name": "octagon-plus-f",
         "kebab": "octagon-plus-f",
         "enum": "OctagonPlusF",
         "full_enum": "TablerIcon::OctagonPlusF",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"currentColor\"\n  class=\"icon icon-tabler icons-tabler-filled icon-tabler-octagon-plus\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M13.196 1.246l5.575 2.39a3.04 3.04 0 0 1 1.595 1.594l2.388 5.573c.328 .764 .328 1.63 0 2.393l-2.39 5.575a3.04 3.04 0 0 1 -1.594 1.595l-5.573 2.388a3.03 3.03 0 0 1 -2.393 0l-5.574 -2.389a3.04 3.04 0 0 1 -1.595 -1.595l-2.388 -5.574a3.04 3.04 0 0 1 0 -2.392l2.39 -5.575a3.04 3.04 0 0 1 1.593 -1.595l5.574 -2.388a3.04 3.04 0 0 1 2.392 0m-1.196 6.754a1 1 0 0 0 -1 1v2h-2a1 1 0 0 0 0 2h2v2a1 1 0 0 0 2 0v-2h2a1 1 0 0 0 0 -2h-2v-2a1 1 0 0 0 -1 -1\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"currentColor\"\n  class=\"icon icon-tabler icons-tabler-filled icon-tabler-octagon-plus\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M14.899 2c.796 0 1.558 .316 2.121 .879l4.101 4.1c.563 .563 .879 1.325 .879 2.122v5.798c0 .796 -.316 1.558 -.879 2.121l-4.101 4.101c-.563 .563 -1.325 .879 -2.121 .879h-5.798c-.796 0 -1.558 -.316 -2.122 -.879l-4.1 -4.101c-.563 -.563 -.879 -1.325 -.879 -2.121v-5.798c0 -.796 .316 -1.558 .879 -2.122l4.1 -4.1c.563 -.563 1.325 -.879 2.122 -.879h5.798zm-2.899 6c-.552 0 -1 .448 -1 1v2h-2c-.552 0 -1 .448 -1 1c0 .552 .448 1 1 1h2v2c0 .552 .448 1 1 1c.552 0 1 -.448 1 -1v-2h2c.552 0 1 -.448 1 -1c0 -.552 -.448 -1 -1 -1h-2v-2c0 -.552 -.448 -1 -1 -1z\" />\n</svg>"
     },
     {
         "name": "octagon-plus-filled",
         "kebab": "octagon-plus-filled",
         "enum": "OctagonPlusFilled",
         "full_enum": "TablerIcon::OctagonPlusFilled",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"currentColor\"\n  class=\"icon icon-tabler icons-tabler-filled icon-tabler-octagon-plus\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M13.196 1.246l5.575 2.39a3.04 3.04 0 0 1 1.595 1.594l2.388 5.573c.328 .764 .328 1.63 0 2.393l-2.39 5.575a3.04 3.04 0 0 1 -1.594 1.595l-5.573 2.388a3.03 3.03 0 0 1 -2.393 0l-5.574 -2.389a3.04 3.04 0 0 1 -1.595 -1.595l-2.388 -5.574a3.04 3.04 0 0 1 0 -2.392l2.39 -5.575a3.04 3.04 0 0 1 1.593 -1.595l5.574 -2.388a3.04 3.04 0 0 1 2.392 0m-1.196 6.754a1 1 0 0 0 -1 1v2h-2a1 1 0 0 0 0 2h2v2a1 1 0 0 0 2 0v-2h2a1 1 0 0 0 0 -2h-2v-2a1 1 0 0 0 -1 -1\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"currentColor\"\n  class=\"icon icon-tabler icons-tabler-filled icon-tabler-octagon-plus\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M14.899 2c.796 0 1.558 .316 2.121 .879l4.101 4.1c.563 .563 .879 1.325 .879 2.122v5.798c0 .796 -.316 1.558 -.879 2.121l-4.101 4.101c-.563 .563 -1.325 .879 -2.121 .879h-5.798c-.796 0 -1.558 -.316 -2.122 -.879l-4.1 -4.101c-.563 -.563 -.879 -1.325 -.879 -2.121v-5.798c0 -.796 .316 -1.558 .879 -2.122l4.1 -4.1c.563 -.563 1.325 -.879 2.122 -.879h5.798zm-2.899 6c-.552 0 -1 .448 -1 1v2h-2c-.552 0 -1 .448 -1 1c0 .552 .448 1 1 1h2v2c0 .552 .448 1 1 1c.552 0 1 -.448 1 -1v-2h2c.552 0 1 -.448 1 -1c0 -.552 -.448 -1 -1 -1h-2v-2c0 -.552 -.448 -1 -1 -1z\" />\n</svg>"
     },
     {
         "name": "octahedron",
@@ -36405,6 +36496,13 @@
         "enum": "Omega",
         "full_enum": "TablerIcon::Omega",
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-omega\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M4 19h5v-1a7.35 7.35 0 1 1 6 0v1h5\" />\n</svg>"
+    },
+    {
+        "name": "opacity",
+        "kebab": "opacity",
+        "enum": "Opacity",
+        "full_enum": "TablerIcon::Opacity",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-opacity\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2\" />\n  <path d=\"M6 18v.01\" />\n  <path d=\"M18 18v.01\" />\n  <path d=\"M9 18v.01\" />\n  <path d=\"M12 18.01v.01\" />\n  <path d=\"M15 18.01v.01\" />\n  <path d=\"M18 15.01v.01\" />\n  <path d=\"M9 15.01v.01\" />\n  <path d=\"M12 15.02v.01\" />\n  <path d=\"M15 15.02v.01\" />\n  <path d=\"M18 12.02v.01\" />\n  <path d=\"M12 12.03v.01\" />\n  <path d=\"M15 12.03v.01\" />\n  <path d=\"M18 9.03v.01\" />\n  <path d=\"M18 6.04v.01\" />\n  <path d=\"M15 9.04v.01\" />\n</svg>"
     },
     {
         "name": "option",
@@ -36979,6 +37077,13 @@
         "enum": "PencilQuestion",
         "full_enum": "TablerIcon::PencilQuestion",
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-pencil-question\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M8 20l6 -6l3 -3l1.5 -1.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4h4\" />\n  <path d=\"M13.5 6.5l4 4\" />\n  <path d=\"M19 22v.01\" />\n  <path d=\"M19 19a2.003 2.003 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483\" />\n</svg>"
+    },
+    {
+        "name": "pencil-ruler",
+        "kebab": "pencil-ruler",
+        "enum": "PencilRuler",
+        "full_enum": "TablerIcon::PencilRuler",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-pencil-ruler\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4\" />\n  <path d=\"M13.5 6.5l4 4\" />\n  <path d=\"M7.3 11.3l-4.3 -4.3l4 -4l4.3 4.3\" />\n  <path d=\"M8 7l1.5 -1.5\" />\n  <path d=\"M12.7 16.7l4.3 4.3l4 -4l-4.3 -4.3\" />\n  <path d=\"M17 16l1.5 -1.5\" />\n</svg>"
     },
     {
         "name": "pencil-search",
@@ -38049,7 +38154,7 @@
         "kebab": "pinned-off",
         "enum": "PinnedOff",
         "full_enum": "TablerIcon::PinnedOff",
-        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-pinned-off\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 3l18 18\" />\n  <path d=\"M15 4.5l-3.249 3.249m-2.57 1.433l-2.181 .818l-1.5 1.5l7 7l1.5 -1.5l.82 -2.186m1.43 -2.563l3.25 -3.251\" />\n  <path d=\"M9 15l-4.5 4.5\" />\n  <path d=\"M14.5 4l5.5 5.5\" />\n</svg>"
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-pinned-off\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M9 4v1\" />\n  <path d=\"M9 9v1l-2 4v2h9\" />\n  <path d=\"M16 12l-1 -2v-6\" />\n  <path d=\"M12 16v5\" />\n  <path d=\"M8 4h8\" />\n  <path d=\"M3 3l18 18\" />\n</svg>"
     },
     {
         "name": "pipeline",
@@ -42859,6 +42964,13 @@
         "enum": "SmokingNo",
         "full_enum": "TablerIcon::SmokingNo",
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-smoking-no\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M8 13l0 4\" />\n  <path d=\"M16 5v.5a2 2 0 0 0 2 2a2 2 0 0 1 2 2v.5\" />\n  <path d=\"M3 3l18 18\" />\n  <path d=\"M17 13h3a1 1 0 0 1 1 1v2c0 .28 -.115 .533 -.3 .714m-3.7 .286h-13a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h9\" />\n</svg>"
+    },
+    {
+        "name": "snail",
+        "kebab": "snail",
+        "enum": "Snail",
+        "full_enum": "TablerIcon::Snail",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-snail\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M11 11c-1.25 0 -2 .755 -2 2s1.372 3 3 3c2.01 0 4 -2.51 4 -5c0 -2.585 -3.223 -5 -6 -5c-3.543 0 -6 2.266 -6 6c0 1.5 .393 2.107 .75 3c.5 1.25 1.804 2.257 2.25 3q -1.034 .099 -2.527 .063a1.44 1.44 0 0 0 -1.473 1.437a1.5 1.5 0 0 0 1.5 1.5h11.71a3.75 3.75 0 0 0 3.083 -1.612c.712 -1.016 .707 -2.138 .707 -3.388v-7a2 2 0 1 0 -4 0v2\" />\n  <path d=\"M21 3c-.862 .479 -1.904 1.76 -2 4.25\" />\n  <path d=\"M17 3c-.383 .766 -1.053 2.43 0 4.25\" />\n</svg>"
     },
     {
         "name": "snowboarding",
@@ -50078,6 +50190,13 @@
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-wave-square\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M3 12h5v8h4v-16h4v8h5\" />\n</svg>"
     },
     {
+        "name": "waveform",
+        "kebab": "waveform",
+        "enum": "Waveform",
+        "full_enum": "TablerIcon::Waveform",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-waveform\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M4 10.5v3\" />\n  <path d=\"M8 7v10\" />\n  <path d=\"M12 8v8\" />\n  <path d=\"M16 4v16\" />\n  <path d=\"M20 10v4\" />\n</svg>"
+    },
+    {
         "name": "waves-electricity",
         "kebab": "waves-electricity",
         "enum": "WavesElectricity",
@@ -50440,6 +50559,13 @@
         "enum": "WorldMap",
         "full_enum": "TablerIcon::WorldMap",
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-world-map\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M20 8h-2a2 2 0 0 0 -2 2a2 2 0 1 1 -4 0v-1a2 2 0 0 0 -2 -2h-1a2 2 0 0 1 -2 -2v-.5\" />\n  <path d=\"M3 12h3a2 2 0 0 1 2 2v.5a1.5 1.5 0 0 0 1.5 1.5a1.5 1.5 0 0 1 1.5 1.5v3.25\" />\n  <path d=\"M15 20.5v-3.5a2 2 0 0 1 2 -2h3.5\" />\n  <path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0\" />\n</svg>"
+    },
+    {
+        "name": "world-map-off",
+        "kebab": "world-map-off",
+        "enum": "WorldMapOff",
+        "full_enum": "TablerIcon::WorldMapOff",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-world-map-off\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M20 8h-2a2 2 0 0 0 -2 2c0 .55 -.222 1.049 -.582 1.41\" />\n  <path d=\"M3 12h3a2 2 0 0 1 2 2v.5a1.5 1.5 0 0 0 1.5 1.5a1.5 1.5 0 0 1 1.5 1.5v3.25\" />\n  <path d=\"M15 20.5v-3.5c0 -.546 .219 -1.04 .573 -1.401m3.427 -.599h1.5\" />\n  <path d=\"M5.635 5.637a9 9 0 0 0 12.724 12.732\" />\n  <path d=\"M20.04 16.043a9 9 0 0 0 -12.084 -12.083\" />\n  <path d=\"M3 3l18 18\" />\n</svg>"
     },
     {
         "name": "world-minus",
@@ -51175,6 +51301,13 @@
         "enum": "ZoomScanFilled",
         "full_enum": "TablerIcon::ZoomScanFilled",
         "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"currentColor\"\n  class=\"icon icon-tabler icons-tabler-filled icon-tabler-zoom-scan\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M4 15a1 1 0 0 1 1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 1 0 2h-2a3 3 0 0 1 -3 -3v-2a1 1 0 0 1 1 -1\" />\n  <path d=\"M20 15a1 1 0 0 1 1 1v2a3 3 0 0 1 -3 3h-2a1 1 0 0 1 0 -2h2a1 1 0 0 0 1 -1v-2a1 1 0 0 1 1 -1\" />\n  <path d=\"M11 7a4 4 0 0 1 3.446 6.031l2.261 2.262a1 1 0 0 1 -1.414 1.414l-2.262 -2.26l-.031 .017a4 4 0 0 1 -6 -3.464l.005 -.2a4 4 0 0 1 3.995 -3.8\" />\n  <path d=\"M8 3a1 1 0 1 1 0 2h-2a1 1 0 0 0 -1 1v2a1 1 0 1 1 -2 0v-2a3 3 0 0 1 3 -3z\" />\n  <path d=\"M18 3a3 3 0 0 1 3 3v2a1 1 0 0 1 -2 0v-2a1 1 0 0 0 -1 -1h-2a1 1 0 0 1 0 -2z\" />\n</svg>"
+    },
+    {
+        "name": "zsh",
+        "kebab": "zsh",
+        "enum": "Zsh",
+        "full_enum": "TablerIcon::Zsh",
+        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-zsh\"\n>\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path d=\"M16 7l-8 10\" />\n  <path d=\"M3 6a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-12\" />\n</svg>"
     },
     {
         "name": "zzz",
